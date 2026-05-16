@@ -1,0 +1,154 @@
+{
+  "B2B_M_SecA": {
+    "name": "B2B Marketing (Section A)",
+    "calId": "c_5628375a0e79765e81c15da372de8b9186cbfc8c73412d120078aae0b599c36b@group.calendar.google.com"
+  },
+  "B2B_M_SecB": {
+    "name": "B2B Marketing (Section B)",
+    "calId": "c_d96a6ac8539d1d484fac51a68bece9e2261a0296512ebbdaf3605dbd12417990@group.calendar.google.com"
+  },
+  "B2B_M_SecC": {
+    "name": "B2B Marketing (Section C)",
+    "calId": "c_e86aaccd94a101fdf0c4bd1c1e9a06697453fe211e12a9304d50718fd3c8982a@group.calendar.google.com"
+  },
+  "BM_SecA": {
+    "name": "Brand Management (Section A)",
+    "calId": "c_01f1ef38f3d8da76339cbcd6505c9758e2f8b340280d686f7bd7bb648dc0ffb0@group.calendar.google.com"
+  },
+  "BM_SecB": {
+    "name": "Brand Management (Section B)",
+    "calId": "c_6288cb3281a8fb44873971abc787f70d2f0e9e1e9561a02bcea908e13c3a1e68@group.calendar.google.com"
+  },
+  "CB_SecA": {
+    "name": "Consumer Behaviour (Section A)",
+    "calId": "c_5a8afd8f03f3017eed0f36d813cb2f90e604e50f970c6a87cd611f42224e9c63@group.calendar.google.com"
+  },
+  "CB_SecB": {
+    "name": "Consumer Behaviour (Section B)",
+    "calId": "c_3c67e353459118f6bff4a4dc3c5dbe13d1e5e93c479aaac30bc050ba95a8e199@group.calendar.google.com"
+  },
+  "CV": {
+    "name": "Corporate Valuation",
+    "calId": "c_37065ae030f7b74036b46184db3712d2dfcdcb389ecfde6c255e420d409a5e61@group.calendar.google.com"
+  },
+  "DSDT_SecA": {
+    "name": "DSDT (Section A)",
+    "calId": "c_4e429deea3e49efeed3d8dc9d667b918555348e99564f7663e95a3a001409bb8@group.calendar.google.com"
+  },
+  "DSDT_SecB": {
+    "name": "DSDT (Section B)",
+    "calId": "c_0ca3d3e0399cf33f2ce6bf48fcdeb452637a76b22c9925b01b822f6f6fb869bd@group.calendar.google.com"
+  },
+  "DSDT_SecC": {
+    "name": "DSDT (Section C)",
+    "calId": "c_f51547fd0c78aee3aed11ee20d2cca6490743d95a69f5e7d6c081d93b67ac0eb@group.calendar.google.com"
+  },
+  "FD_SecA": {
+    "name": "Financial Derivatives (Section A)",
+    "calId": "c_c9f228bb1a16ec0f06c64b6b5ec336a58fc58f4e3b2150e44841dd7fefd8cc36@group.calendar.google.com"
+  },
+  "FD_SecB": {
+    "name": "Financial Derivatives (Section B)",
+    "calId": "c_5a8c3f42cd6add3691460179bfd9a9f5e003e6e485eb6906b67d9246ec690d09@group.calendar.google.com"
+  },
+  "FSA_SecA": {
+    "name": "Financial Statement Analysis (Section A)",
+    "calId": "c_85e2de9cd5600c2226122b120824d2e53130da69ce05cbc9cc8167451355f4e9@group.calendar.google.com"
+  },
+  "FSA_SecB": {
+    "name": "Financial Statement Analysis (Section B)",
+    "calId": "c_473ed0a5e107dd892122bbb75cc4bba4744438bbe30a7a27410d476f209fd92b@group.calendar.google.com"
+  },
+  "HRM_IR": {
+    "name": "HRM (Industrial Relations)",
+    "calId": "c_f85fc819f6e26abdbea3f0aac90e5796d6fdb8ef1ab77d1e0cec49a4d0abcf78@group.calendar.google.com"
+  },
+  "INV_SecA": {
+    "name": "Investments (Section A)",
+    "calId": "c_d4d30791a48d84133d90fb67c7f70c9d76208a12555e827921f609ad3a93434a@group.calendar.google.com"
+  },
+  "INV_SecB": {
+    "name": "Investments (Section B)",
+    "calId": "c_5f08704f2e46d13f013941395f10c04cd9f01317c119d453358073074887b107@group.calendar.google.com"
+  },
+  "MG_SecA": {
+    "name": "MG (Section A)",
+    "calId": "c_8df3ab99be903dfda41e14aad4c192c1df647f7c9c86f07030346c6374b5ec73@group.calendar.google.com"
+  },
+  "MG_SecB": {
+    "name": "MG (Section B)",
+    "calId": "c_15135148b62b579e1d79b20d1c158dfddcdcd310b8c9f1c0331e890ae2e30c3c@group.calendar.google.com"
+  },
+  "MoB": {
+    "name": "MoB",
+    "calId": "c_f8251bb6f8fffbfa77d3c6816ac86075e51cea95f0b2735fb450acc8b03e41d9@group.calendar.google.com"
+  },
+  "MSAIC_SecA": {
+    "name": "MSAIC (Section A)",
+    "calId": "c_e8392a03d7baf699e37377899aefafe60aa32d48427699877aa8791a05bab893@group.calendar.google.com"
+  },
+  "MSAIC_SecB": {
+    "name": "MSAIC (Section B)",
+    "calId": "c_c01ba4eab309387d9a944bf6113b1a0e8376af277c2c8dc3c9a104ca412338d0@group.calendar.google.com"
+  },
+  "PA_SecA": {
+    "name": "PA (Section A)",
+    "calId": "c_c2814b31f6e703dfdad71bf7869121690d217ff3b9d92502dc1825153efe0a9c@group.calendar.google.com"
+  },
+  "PA_SecB": {
+    "name": "PA (Section B)",
+    "calId": "c_59053100bac60669e2e98218576138dccd36a2a3bfbcb83990c4fd92894ac5ec@group.calendar.google.com"
+  },
+  "PCG_SecA": {
+    "name": "PCG (Section A)",
+    "calId": "c_9f5fe19b100d107511bef20eff6ad0de5741a6e167c027ddc605034ef73529d7@group.calendar.google.com"
+  },
+  "PCG_SecB": {
+    "name": "PCG (Section B)",
+    "calId": "c_c8a8aedad08f3c0a2b412645d7b2cdf6f0a06dc502e34a6653e32bf00932662d@group.calendar.google.com"
+  },
+  "PEVC_SecA": {
+    "name": "Private Equity & Venture Capital (Section A)",
+    "calId": "c_9abec2f6e5e96316ec96fe732cde597ead16cebe3f42452ccb44fe6ef1540082@group.calendar.google.com"
+  },
+  "PEVC_SecB": {
+    "name": "Private Equity & Venture Capital (Section B)",
+    "calId": "c_afbfe0e6b20e80ab43b3f39f82edc541978cf94f719d5df3c3b715d27bd16b2a@group.calendar.google.com"
+  },
+  "PM": {
+    "name": "PM",
+    "calId": "c_f39ff0d8b5daacd5e1226b26f9ffeefb6f3e1c92e3eef5fa1c916d47becf39e4@group.calendar.google.com"
+  },
+  "PSM_SecA": {
+    "name": "PSM (Section A)",
+    "calId": "c_6517d9726bf27f11badb2f472a7fa9ec4418c2f125a01a3c8a320fd1f9372d50@group.calendar.google.com"
+  },
+  "PSM_SecB": {
+    "name": "PSM (Section B)",
+    "calId": "c_6b549d0f97df88fe7f6b99f0d355dfe5d2874c12e9bd6965db500054534e9cfd@group.calendar.google.com"
+  },
+  "Rev_Mgmt": {
+    "name": "Revenue Management",
+    "calId": "c_353b39ea152788830d4d55a2fa963913f24cd021fbd9486c1a573e94b76fd521@group.calendar.google.com"
+  },
+  "SCM_SecA": {
+    "name": "Supply Chain Management (Section A)",
+    "calId": "c_f4b0e34879e5e8332901e835612d43534c08bd0b6fd502e02792173e46069b6e@group.calendar.google.com"
+  },
+  "SCM_SecB": {
+    "name": "Supply Chain Management (Section B)",
+    "calId": "c_9463410989735c9bf7ce10420ac3afbadee693b72d1f15808941c4fdf6025e5a@group.calendar.google.com"
+  },
+  "SDM": {
+    "name": "SDM",
+    "calId": "c_ba77c76f5248eb9a02ff84130a6322c8feec297f61ceb80a3621e0dd526e7f2e@group.calendar.google.com"
+  },
+  "SRC": {
+    "name": "SRC",
+    "calId": "c_5df13e3685dcc307447ca7cd9c8069afde9038d9b3498bf7aafbb55e1d5e85eb@group.calendar.google.com"
+  },
+  "TS_ADR": {
+    "name": "TS-ADR",
+    "calId": "c_05ff81e3c091d91e777ddd3243433016add2be587a4b52ee91d7106e724b09e2@group.calendar.google.com"
+  }
+}

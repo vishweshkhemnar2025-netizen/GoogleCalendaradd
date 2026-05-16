@@ -1,0 +1,4482 @@
+{
+  "2411161": {
+    "name": "Kartikeya Singh",
+    "sections": [
+      "B2B_M_SecA",
+      "DSDT_SecC",
+      "FSA_SecA",
+      "MG_SecA",
+      "PA_SecA",
+      "PM",
+      "SRC"
+    ]
+  },
+  "2411213": {
+    "name": "Murchana Rabha",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecA",
+      "CB_SecB",
+      "DSDT_SecA",
+      "HRM_IR",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511001": {
+    "name": "A Harshita",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecB",
+      "HRM_IR",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "SDM"
+    ]
+  },
+  "2511002": {
+    "name": "Aanya Rawat",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecA",
+      "PCG_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511003": {
+    "name": "Aarambh Bharadwaj",
+    "sections": [
+      "BM_SecB",
+      "CV",
+      "FSA_SecB",
+      "INV_SecB",
+      "MG_SecB",
+      "PSM_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511004": {
+    "name": "Abhay Kishore",
+    "sections": [
+      "FD_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MG_SecB",
+      "MoB",
+      "MSAIC_SecB",
+      "PEVC_SecB",
+      "PSM_SecB"
+    ]
+  },
+  "2511006": {
+    "name": "Abhinav Kumar Lal",
+    "sections": [
+      "CV",
+      "FD_SecB",
+      "INV_SecB",
+      "MoB",
+      "PA_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511007": {
+    "name": "Abhishek Bhattacherjee",
+    "sections": [
+      "CB_SecB",
+      "DSDT_SecA",
+      "INV_SecA",
+      "PM",
+      "PSM_SecB",
+      "SRC",
+      "TS_ADR"
+    ]
+  },
+  "2511008": {
+    "name": "Abhishek Das",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecB",
+      "DSDT_SecC",
+      "FSA_SecA",
+      "PA_SecB",
+      "PSM_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511009": {
+    "name": "Abhishek Goyal",
+    "sections": [
+      "B2B_M_SecC",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PCG_SecA",
+      "PM",
+      "PSM_SecA",
+      "SCM_SecA"
+    ]
+  },
+  "2511010": {
+    "name": "Abhishek Gupta",
+    "sections": [
+      "DSDT_SecB",
+      "PA_SecA",
+      "PM",
+      "PSM_SecA",
+      "Rev_Mgmt",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511011": {
+    "name": "Adarsh Jaiswal",
+    "sections": [
+      "CB_SecA",
+      "CV",
+      "FD_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MoB",
+      "PEVC_SecA"
+    ]
+  },
+  "2511012": {
+    "name": "Adhish Uchil",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecA",
+      "DSDT_SecA",
+      "HRM_IR",
+      "MSAIC_SecA",
+      "PM",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511013": {
+    "name": "Aditya Kante",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecB",
+      "CB_SecB",
+      "DSDT_SecB",
+      "MSAIC_SecA",
+      "SDM",
+      "SRC",
+      "TS_ADR"
+    ]
+  },
+  "2511014": {
+    "name": "Aditya Mishra",
+    "sections": [
+      "BM_SecA",
+      "DSDT_SecB",
+      "PA_SecA",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "PM",
+      "PSM_SecA"
+    ]
+  },
+  "2511015": {
+    "name": "Akshit Tomar",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "DSDT_SecB",
+      "INV_SecB",
+      "MG_SecB",
+      "MSAIC_SecA",
+      "SDM"
+    ]
+  },
+  "2511016": {
+    "name": "Alankrit Goyal",
+    "sections": [
+      "CV",
+      "FD_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MG_SecB",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PEVC_SecB"
+    ]
+  },
+  "2511017": {
+    "name": "Aldifa Shaikh",
+    "sections": [
+      "CV",
+      "FD_SecB",
+      "MG_SecB",
+      "MoB",
+      "MSAIC_SecB",
+      "PEVC_SecA",
+      "PSM_SecB",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511018": {
+    "name": "Amaan Malik",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecA",
+      "CB_SecA",
+      "INV_SecB",
+      "PCG_SecA",
+      "PM"
+    ]
+  },
+  "2511019": {
+    "name": "Aman Daharwal",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecB",
+      "INV_SecA",
+      "MSAIC_SecA",
+      "PCG_SecA",
+      "PSM_SecB",
+      "SRC"
+    ]
+  },
+  "2511020": {
+    "name": "Aman Pandey",
+    "sections": [
+      "CV",
+      "DSDT_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "PA_SecA",
+      "PCG_SecA",
+      "SCM_SecA"
+    ]
+  },
+  "2511021": {
+    "name": "Aman Rajendra Bajpai",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecB",
+      "PM",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511023": {
+    "name": "Amritanshu Tripathi",
+    "sections": [
+      "B2B_M_SecA",
+      "CV",
+      "FD_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "PEVC_SecA",
+      "SRC"
+    ]
+  },
+  "2511024": {
+    "name": "Amritesh Singh",
+    "sections": [
+      "BM_SecB",
+      "CV",
+      "DSDT_SecC",
+      "FSA_SecA",
+      "PA_SecB",
+      "PEVC_SecA",
+      "SCM_SecB",
+      "SRC"
+    ]
+  },
+  "2511025": {
+    "name": "Anas Ahmad",
+    "sections": [
+      "B2B_M_SecB",
+      "DSDT_SecC",
+      "FSA_SecA",
+      "PCG_SecA",
+      "PM",
+      "PSM_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511026": {
+    "name": "Anees Mahmuda",
+    "sections": [
+      "B2B_M_SecA",
+      "DSDT_SecA",
+      "FSA_SecA",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PEVC_SecA",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511027": {
+    "name": "Aniket Kumar",
+    "sections": [
+      "CB_SecB",
+      "DSDT_SecA",
+      "PA_SecB",
+      "PCG_SecA",
+      "PM",
+      "PSM_SecB",
+      "SRC"
+    ]
+  },
+  "2511028": {
+    "name": "Aniket Mohan",
+    "sections": [
+      "BM_SecA",
+      "MG_SecB",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PCG_SecB",
+      "Rev_Mgmt",
+      "SCM_SecB"
+    ]
+  },
+  "2511029": {
+    "name": "Aniket Mohanty",
+    "sections": [
+      "B2B_M_SecA",
+      "CV",
+      "DSDT_SecA",
+      "FD_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "PEVC_SecA",
+      "SRC"
+    ]
+  },
+  "2511030": {
+    "name": "Anil Kumar",
+    "sections": [
+      "B2B_M_SecC",
+      "CB_SecB",
+      "DSDT_SecC",
+      "PM",
+      "PSM_SecB",
+      "SCM_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511031": {
+    "name": "Aniruddha Anil Mahajan",
+    "sections": [
+      "B2B_M_SecB",
+      "INV_SecA",
+      "PM",
+      "PSM_SecB",
+      "Rev_Mgmt",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511032": {
+    "name": "ANKIT ATANU DATTA",
+    "sections": [
+      "BM_SecB",
+      "CB_SecB",
+      "DSDT_SecC",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PCG_SecA",
+      "PSM_SecB"
+    ]
+  },
+  "2511033": {
+    "name": "Ankit Jain",
+    "sections": [
+      "BM_SecA",
+      "FSA_SecB",
+      "INV_SecB",
+      "PA_SecB",
+      "PCG_SecB",
+      "PEVC_SecA",
+      "PSM_SecA",
+      "SRC"
+    ]
+  },
+  "2511034": {
+    "name": "Ankit Maurya",
+    "sections": [
+      "FD_SecA",
+      "INV_SecB",
+      "MoB",
+      "PA_SecB",
+      "PCG_SecB",
+      "PEVC_SecB",
+      "PSM_SecB"
+    ]
+  },
+  "2511035": {
+    "name": "Ankit Prakash",
+    "sections": [
+      "B2B_M_SecC",
+      "DSDT_SecB",
+      "FD_SecB",
+      "FSA_SecB",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PEVC_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511036": {
+    "name": "Ankita Banchhor",
+    "sections": [
+      "B2B_M_SecC",
+      "CB_SecA",
+      "DSDT_SecC",
+      "FSA_SecB",
+      "MoB",
+      "PEVC_SecB",
+      "PSM_SecB"
+    ]
+  },
+  "2511037": {
+    "name": "Ankita Mitra",
+    "sections": [
+      "CB_SecA",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PCG_SecA",
+      "PSM_SecA",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511038": {
+    "name": "Antik Chowdhury",
+    "sections": [
+      "DSDT_SecA",
+      "FSA_SecA",
+      "INV_SecB",
+      "MG_SecB",
+      "MSAIC_SecB",
+      "PA_SecB",
+      "PSM_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511039": {
+    "name": "Anurag Bara",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecA",
+      "CB_SecB",
+      "DSDT_SecB",
+      "HRM_IR",
+      "MSAIC_SecA",
+      "SRC",
+      "TS_ADR"
+    ]
+  },
+  "2511040": {
+    "name": "Anushka Chandrakant Dange",
+    "sections": [
+      "BM_SecB",
+      "CB_SecA",
+      "FD_SecA",
+      "FSA_SecA",
+      "HRM_IR",
+      "INV_SecB",
+      "PCG_SecB",
+      "PEVC_SecA"
+    ]
+  },
+  "2511041": {
+    "name": "Apeksha Bhupesh Nagrare",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecA",
+      "PM",
+      "PSM_SecA",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511042": {
+    "name": "Ardhala Hema",
+    "sections": [
+      "B2B_M_SecC",
+      "DSDT_SecB",
+      "FD_SecB",
+      "FSA_SecB",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PEVC_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511043": {
+    "name": "Aritri Das",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecB",
+      "MSAIC_SecA",
+      "PCG_SecA",
+      "PSM_SecA"
+    ]
+  },
+  "2511044": {
+    "name": "Arkodeb Sakhari",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecB",
+      "CB_SecB",
+      "MG_SecB",
+      "MSAIC_SecA",
+      "PSM_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511045": {
+    "name": "Arman Ahmed",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecA",
+      "FSA_SecA",
+      "PA_SecA",
+      "PCG_SecA",
+      "PM",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511046": {
+    "name": "Arnepalli Gowtham",
+    "sections": [
+      "CB_SecB",
+      "FD_SecB",
+      "FSA_SecB",
+      "MoB",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PEVC_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511047": {
+    "name": "Aryan Jha",
+    "sections": [
+      "CV",
+      "DSDT_SecC",
+      "FD_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MoB",
+      "PA_SecB"
+    ]
+  },
+  "2511048": {
+    "name": "Aryan Srivastava",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecB",
+      "PA_SecA",
+      "PCG_SecB",
+      "PSM_SecB",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511049": {
+    "name": "Ashray Jain",
+    "sections": [
+      "CV",
+      "DSDT_SecA",
+      "FD_SecA",
+      "INV_SecA",
+      "MoB",
+      "PA_SecA",
+      "PEVC_SecA"
+    ]
+  },
+  "2511050": {
+    "name": "Ashutosh Verma",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "CV",
+      "DSDT_SecC",
+      "INV_SecB",
+      "MoB",
+      "MSAIC_SecA"
+    ]
+  },
+  "2511051": {
+    "name": "Atharva Sachitanand Alshi",
+    "sections": [
+      "CV",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecA",
+      "MoB",
+      "MSAIC_SecB",
+      "PA_SecA"
+    ]
+  },
+  "2511052": {
+    "name": "Avantika Verma",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecB",
+      "CB_SecA",
+      "PA_SecB",
+      "PCG_SecB",
+      "PSM_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511053": {
+    "name": "Ayush Bhimrao Bondre",
+    "sections": [
+      "DSDT_SecB",
+      "INV_SecA",
+      "PA_SecA",
+      "PM",
+      "Rev_Mgmt",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511054": {
+    "name": "Ayush Kumar Singh",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "DSDT_SecB",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "PM",
+      "PSM_SecA"
+    ]
+  },
+  "2511055": {
+    "name": "Banayat Harsh Ajay",
+    "sections": [
+      "HRM_IR",
+      "MG_SecB",
+      "PCG_SecA",
+      "PM",
+      "Rev_Mgmt",
+      "SDM",
+      "SRC"
+    ]
+  },
+  "2511056": {
+    "name": "Bhabya Bani",
+    "sections": [
+      "CB_SecB",
+      "CV",
+      "FD_SecA",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PCG_SecA",
+      "PSM_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511057": {
+    "name": "Bhavish",
+    "sections": [
+      "CV",
+      "DSDT_SecB",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecA",
+      "PEVC_SecB",
+      "Rev_Mgmt",
+      "SRC"
+    ]
+  },
+  "2511058": {
+    "name": "Bholanath Tiwari",
+    "sections": [
+      "B2B_M_SecB",
+      "CV",
+      "DSDT_SecB",
+      "PA_SecA",
+      "PEVC_SecB",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511059": {
+    "name": "Bhumika Chainani",
+    "sections": [
+      "B2B_M_SecA",
+      "CB_SecA",
+      "DSDT_SecA",
+      "FSA_SecA",
+      "MoB",
+      "MSAIC_SecA",
+      "PEVC_SecA",
+      "SDM"
+    ]
+  },
+  "2511060": {
+    "name": "Bhumika Surendraprasad Rajoria",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecA",
+      "MSAIC_SecB",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511061": {
+    "name": "Bhuva Varun Nayan",
+    "sections": [
+      "B2B_M_SecB",
+      "DSDT_SecB",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PSM_SecA",
+      "Rev_Mgmt",
+      "SCM_SecA"
+    ]
+  },
+  "2511062": {
+    "name": "BISWAS RISHITA",
+    "sections": [
+      "DSDT_SecA",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecA",
+      "MSAIC_SecB",
+      "PEVC_SecB",
+      "PSM_SecB",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511063": {
+    "name": "Boddepalli Himashree",
+    "sections": [
+      "B2B_M_SecA",
+      "CB_SecB",
+      "DSDT_SecA",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "SDM"
+    ]
+  },
+  "2511064": {
+    "name": "Bojja Lekhya",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecB",
+      "CB_SecB",
+      "FSA_SecB",
+      "HRM_IR",
+      "MG_SecA",
+      "PEVC_SecB",
+      "PM"
+    ]
+  },
+  "2511065": {
+    "name": "Chaitanya Suraj Mamidi",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecA",
+      "PA_SecB",
+      "PEVC_SecA",
+      "PSM_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511067": {
+    "name": "Chaudhari Parmi Navinbhai",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecB",
+      "CB_SecA",
+      "DSDT_SecA",
+      "MSAIC_SecB",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511068": {
+    "name": "Chetanya Sachdeva",
+    "sections": [
+      "BM_SecB",
+      "CV",
+      "DSDT_SecC",
+      "FD_SecA",
+      "FSA_SecA",
+      "INV_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511069": {
+    "name": "Chetna Dharwani",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecA",
+      "DSDT_SecA",
+      "FD_SecA",
+      "INV_SecA",
+      "PEVC_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511070": {
+    "name": "Chirag Makhija",
+    "sections": [
+      "CB_SecA",
+      "CV",
+      "DSDT_SecC",
+      "FD_SecA",
+      "FSA_SecB",
+      "MoB",
+      "MSAIC_SecA",
+      "PEVC_SecB"
+    ]
+  },
+  "2511071": {
+    "name": "Daidipya Singh Kothari",
+    "sections": [
+      "B2B_M_SecB",
+      "DSDT_SecC",
+      "FD_SecA",
+      "FSA_SecA",
+      "INV_SecB",
+      "PSM_SecB",
+      "SDM"
+    ]
+  },
+  "2511072": {
+    "name": "Dani Rishita Vijay",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecB",
+      "CB_SecB",
+      "DSDT_SecB",
+      "HRM_IR",
+      "MG_SecB",
+      "SDM"
+    ]
+  },
+  "2511073": {
+    "name": "Debadrita Das",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecB",
+      "CB_SecA",
+      "DSDT_SecC",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PSM_SecB"
+    ]
+  },
+  "2511074": {
+    "name": "Deepak Dattaprasad Khatod",
+    "sections": [
+      "B2B_M_SecA",
+      "DSDT_SecA",
+      "FSA_SecA",
+      "INV_SecB",
+      "MG_SecB",
+      "PCG_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511075": {
+    "name": "Deepak Meena",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecA",
+      "CB_SecA",
+      "HRM_IR",
+      "PSM_SecA",
+      "SDM",
+      "SRC",
+      "TS_ADR"
+    ]
+  },
+  "2511076": {
+    "name": "Delisha Bansal",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecB",
+      "HRM_IR",
+      "MSAIC_SecA",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511077": {
+    "name": "Dev Singh",
+    "sections": [
+      "B2B_M_SecC",
+      "DSDT_SecB",
+      "FD_SecB",
+      "FSA_SecA",
+      "INV_SecB",
+      "PCG_SecA",
+      "SDM"
+    ]
+  },
+  "2511078": {
+    "name": "Devansh Agarwal",
+    "sections": [
+      "B2B_M_SecA",
+      "CV",
+      "DSDT_SecC",
+      "FSA_SecA",
+      "INV_SecA",
+      "MoB",
+      "PEVC_SecA"
+    ]
+  },
+  "2511079": {
+    "name": "Devdatta Dokhale",
+    "sections": [
+      "B2B_M_SecC",
+      "CB_SecB",
+      "DSDT_SecC",
+      "INV_SecA",
+      "MoB",
+      "MSAIC_SecA",
+      "PEVC_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511080": {
+    "name": "Dharmare Atharva Prashant",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecA",
+      "DSDT_SecC",
+      "FSA_SecB",
+      "PCG_SecB",
+      "PSM_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511081": {
+    "name": "Dhruv Arora",
+    "sections": [
+      "CV",
+      "DSDT_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MG_SecB",
+      "MoB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511082": {
+    "name": "Dhruv Nijhawan",
+    "sections": [
+      "CV",
+      "DSDT_SecC",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecA",
+      "PA_SecA",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511083": {
+    "name": "Diksha Kumar",
+    "sections": [
+      "B2B_M_SecC",
+      "CB_SecA",
+      "DSDT_SecB",
+      "HRM_IR",
+      "MSAIC_SecB",
+      "PCG_SecA",
+      "PSM_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511084": {
+    "name": "Dikshita Borah",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "DSDT_SecA",
+      "HRM_IR",
+      "MG_SecA",
+      "MSAIC_SecB",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511085": {
+    "name": "Dilip Kumar V",
+    "sections": [
+      "B2B_M_SecC",
+      "DSDT_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MG_SecB",
+      "PA_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511086": {
+    "name": "Dipro Chakraborty",
+    "sections": [
+      "CV",
+      "DSDT_SecC",
+      "FD_SecB",
+      "FSA_SecA",
+      "INV_SecB",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PEVC_SecA"
+    ]
+  },
+  "2511087": {
+    "name": "Divya Dudi",
+    "sections": [
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecB",
+      "FSA_SecA",
+      "HRM_IR",
+      "MSAIC_SecB",
+      "SCM_SecA",
+      "SDM"
+    ]
+  },
+  "2511088": {
+    "name": "Donapati Bhanu Sumanth Reddy",
+    "sections": [
+      "FD_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "MoB",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PEVC_SecB",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511089": {
+    "name": "Eeshan Wairagade",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "CB_SecA",
+      "FD_SecA",
+      "HRM_IR",
+      "PEVC_SecA",
+      "Rev_Mgmt",
+      "SRC"
+    ]
+  },
+  "2511090": {
+    "name": "Eshaan Sharma",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecB",
+      "DSDT_SecA",
+      "FSA_SecB",
+      "HRM_IR",
+      "PA_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511091": {
+    "name": "Faheem Fazal",
+    "sections": [
+      "DSDT_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MG_SecB",
+      "MoB",
+      "MSAIC_SecA",
+      "PEVC_SecB",
+      "SDM"
+    ]
+  },
+  "2511092": {
+    "name": "Fajar K",
+    "sections": [
+      "CB_SecB",
+      "CV",
+      "FD_SecB",
+      "MoB",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "PSM_SecA"
+    ]
+  },
+  "2511093": {
+    "name": "Gaurav Thakur",
+    "sections": [
+      "BM_SecB",
+      "CB_SecB",
+      "DSDT_SecC",
+      "FD_SecA",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PEVC_SecB",
+      "SRC"
+    ]
+  },
+  "2511094": {
+    "name": "Ghodichor Rupali Vinod",
+    "sections": [
+      "B2B_M_SecC",
+      "CB_SecA",
+      "DSDT_SecA",
+      "PCG_SecA",
+      "PM",
+      "PSM_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511095": {
+    "name": "Girdhar Gopal",
+    "sections": [
+      "CV",
+      "FD_SecA",
+      "FSA_SecA",
+      "MoB",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PCG_SecA",
+      "PEVC_SecA"
+    ]
+  },
+  "2511097": {
+    "name": "Sindhuja Naidu Gollu",
+    "sections": [
+      "B2B_M_SecB",
+      "DSDT_SecB",
+      "FD_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "PA_SecB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511098": {
+    "name": "Gowtham S",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecB",
+      "CB_SecA",
+      "CV",
+      "DSDT_SecC",
+      "FSA_SecA",
+      "INV_SecB"
+    ]
+  },
+  "2511099": {
+    "name": "Gunjan Lahoti",
+    "sections": [
+      "CV",
+      "FD_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MoB",
+      "MSAIC_SecB",
+      "PA_SecB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511100": {
+    "name": "Harish Kumar Arulalan",
+    "sections": [
+      "B2B_M_SecB",
+      "CV",
+      "DSDT_SecB",
+      "PA_SecA",
+      "PCG_SecA",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511101": {
+    "name": "Harit Honey",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecB",
+      "CV",
+      "DSDT_SecC",
+      "FD_SecB",
+      "FSA_SecB",
+      "INV_SecB"
+    ]
+  },
+  "2511102": {
+    "name": "Harsh Anand",
+    "sections": [
+      "DSDT_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "PCG_SecA",
+      "PM",
+      "PSM_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511103": {
+    "name": "Harsh Tripathi",
+    "sections": [
+      "B2B_M_SecC",
+      "DSDT_SecB",
+      "FSA_SecB",
+      "MG_SecB",
+      "MoB",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511104": {
+    "name": "Harsh U Deshpande",
+    "sections": [
+      "BM_SecB",
+      "CV",
+      "DSDT_SecC",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecA",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511105": {
+    "name": "Heramba Panda",
+    "sections": [
+      "BM_SecB",
+      "DSDT_SecC",
+      "PA_SecB",
+      "PCG_SecA",
+      "PSM_SecB",
+      "Rev_Mgmt",
+      "SRC"
+    ]
+  },
+  "2511106": {
+    "name": "Himank Agarwal",
+    "sections": [
+      "CV",
+      "FD_SecB",
+      "INV_SecB",
+      "MoB",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PEVC_SecB"
+    ]
+  },
+  "2511107": {
+    "name": "Himanshu Bharara",
+    "sections": [
+      "B2B_M_SecA",
+      "CB_SecA",
+      "MoB",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PM",
+      "PSM_SecB"
+    ]
+  },
+  "2511108": {
+    "name": "Himanshu Raj",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "CB_SecB",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "PSM_SecB",
+      "SDM"
+    ]
+  },
+  "2511109": {
+    "name": "Himanshu Yadav",
+    "sections": [
+      "B2B_M_SecB",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecA",
+      "PA_SecA",
+      "Rev_Mgmt",
+      "SCM_SecB"
+    ]
+  },
+  "2511110": {
+    "name": "Hrishikesh Bhadke",
+    "sections": [
+      "CB_SecA",
+      "CV",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecB",
+      "MoB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511111": {
+    "name": "Isha Singh",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecB",
+      "DSDT_SecB",
+      "MSAIC_SecB",
+      "PCG_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511112": {
+    "name": "Ishan Bhoi",
+    "sections": [
+      "CV",
+      "DSDT_SecC",
+      "FD_SecA",
+      "INV_SecA",
+      "PA_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511113": {
+    "name": "Jadhav Hrishi Ashok",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecB",
+      "DSDT_SecC",
+      "MG_SecA",
+      "MoB",
+      "PCG_SecB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511116": {
+    "name": "Jesika Maroti",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "CB_SecB",
+      "DSDT_SecA",
+      "PCG_SecB",
+      "PSM_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511117": {
+    "name": "Jessica Marina Gajpati",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecB",
+      "DSDT_SecA",
+      "MSAIC_SecB",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511118": {
+    "name": "Jithin Salim",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecA",
+      "DSDT_SecB",
+      "FSA_SecB",
+      "PM",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511119": {
+    "name": "Jolly Ratan",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecB",
+      "CB_SecB",
+      "PCG_SecA",
+      "SDM",
+      "SRC",
+      "TS_ADR"
+    ]
+  },
+  "2511120": {
+    "name": "Kajal Varma",
+    "sections": [
+      "CV",
+      "DSDT_SecA",
+      "FD_SecA",
+      "FSA_SecA",
+      "MoB",
+      "PCG_SecA",
+      "PEVC_SecA"
+    ]
+  },
+  "2511121": {
+    "name": "Kangane Vidya Madhukar",
+    "sections": [
+      "BM_SecB",
+      "CB_SecB",
+      "DSDT_SecC",
+      "PCG_SecA",
+      "PM",
+      "PSM_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511122": {
+    "name": "Kanish Kumar Dubey",
+    "sections": [
+      "DSDT_SecA",
+      "MG_SecA",
+      "PM",
+      "PSM_SecB",
+      "Rev_Mgmt",
+      "SCM_SecB"
+    ]
+  },
+  "2511123": {
+    "name": "Karri Nikhil Kumar",
+    "sections": [
+      "B2B_M_SecC",
+      "CB_SecB",
+      "FSA_SecA",
+      "MG_SecB",
+      "MSAIC_SecB",
+      "PEVC_SecA",
+      "PSM_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511124": {
+    "name": "KASA NIKHITA",
+    "sections": [
+      "DSDT_SecA",
+      "FD_SecA",
+      "INV_SecA",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "Rev_Mgmt",
+      "SCM_SecB"
+    ]
+  },
+  "2511125": {
+    "name": "Keerthi Koneru",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecA",
+      "FSA_SecA",
+      "PA_SecB",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511126": {
+    "name": "Kemisetti Neeraj",
+    "sections": [
+      "B2B_M_SecC",
+      "DSDT_SecB",
+      "INV_SecB",
+      "MoB",
+      "MSAIC_SecA",
+      "PEVC_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511127": {
+    "name": "Omkar Anil Kharatmol",
+    "sections": [
+      "B2B_M_SecC",
+      "DSDT_SecA",
+      "FSA_SecB",
+      "MG_SecB",
+      "MSAIC_SecB",
+      "PEVC_SecB",
+      "Rev_Mgmt",
+      "SCM_SecB"
+    ]
+  },
+  "2511128": {
+    "name": "Khushi Morwal",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "DSDT_SecA",
+      "FSA_SecB",
+      "MG_SecB",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511129": {
+    "name": "Khyati Jigneshkumar Barot",
+    "sections": [
+      "BM_SecA",
+      "DSDT_SecB",
+      "FSA_SecB",
+      "HRM_IR",
+      "PCG_SecB",
+      "PEVC_SecB",
+      "SCM_SecA",
+      "SRC",
+      "TS_ADR"
+    ]
+  },
+  "2511131": {
+    "name": "Kishan Agarwal",
+    "sections": [
+      "CV",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecA",
+      "PA_SecA",
+      "PEVC_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511132": {
+    "name": "Koyel Gope",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "CV",
+      "FSA_SecA",
+      "INV_SecA",
+      "MoB",
+      "PEVC_SecA"
+    ]
+  },
+  "2511133": {
+    "name": "Kshirsagar Khyati Devendra",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "DSDT_SecB",
+      "PA_SecB",
+      "PEVC_SecB",
+      "PM",
+      "PSM_SecA"
+    ]
+  },
+  "2511134": {
+    "name": "Kshirsagar Rushikesh Prabhakar",
+    "sections": [
+      "DSDT_SecB",
+      "FD_SecB",
+      "MoB",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511135": {
+    "name": "Kshitiz Sharma",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecB",
+      "PM",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511136": {
+    "name": "Kunta Himaja",
+    "sections": [
+      "B2B_M_SecC",
+      "FD_SecA",
+      "INV_SecB",
+      "MoB",
+      "PEVC_SecB",
+      "PM",
+      "SCM_SecB"
+    ]
+  },
+  "2511138": {
+    "name": "Lakshay Vijay",
+    "sections": [
+      "FD_SecA",
+      "PA_SecB",
+      "PM",
+      "PSM_SecB",
+      "Rev_Mgmt",
+      "SCM_SecB"
+    ]
+  },
+  "2511140": {
+    "name": "M Thilak Remigius",
+    "sections": [
+      "B2B_M_SecA",
+      "DSDT_SecA",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PCG_SecB",
+      "PEVC_SecA",
+      "SCM_SecB",
+      "SRC"
+    ]
+  },
+  "2511141": {
+    "name": "Madhavi Singh",
+    "sections": [
+      "BM_SecB",
+      "MG_SecB",
+      "MSAIC_SecB",
+      "PA_SecB",
+      "PCG_SecA",
+      "PSM_SecB",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511143": {
+    "name": "Manav Haridas Dongre",
+    "sections": [
+      "B2B_M_SecC",
+      "CB_SecA",
+      "DSDT_SecB",
+      "PEVC_SecB",
+      "PM",
+      "SCM_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511144": {
+    "name": "Manav Hitesh Shetty",
+    "sections": [
+      "B2B_M_SecA",
+      "CB_SecA",
+      "PA_SecA",
+      "PCG_SecB",
+      "PSM_SecA",
+      "SCM_SecB",
+      "SRC"
+    ]
+  },
+  "2511145": {
+    "name": "Manav S Zaveri",
+    "sections": [
+      "FD_SecA",
+      "MSAIC_SecA",
+      "PA_SecA",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "PSM_SecB",
+      "Rev_Mgmt",
+      "SRC"
+    ]
+  },
+  "2511146": {
+    "name": "Mankar Siddarth Suresh",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecA",
+      "MSAIC_SecB",
+      "PM",
+      "PSM_SecA",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511147": {
+    "name": "Mansi Yadav",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecA",
+      "CV",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecB",
+      "MSAIC_SecA",
+      "PEVC_SecB"
+    ]
+  },
+  "2511148": {
+    "name": "Mayank Gadia",
+    "sections": [
+      "CV",
+      "DSDT_SecB",
+      "FSA_SecB",
+      "INV_SecA",
+      "MoB",
+      "PA_SecB",
+      "PEVC_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511149": {
+    "name": "Md Asad Tanzeer Ali",
+    "sections": [
+      "B2B_M_SecC",
+      "DSDT_SecC",
+      "MG_SecB",
+      "MSAIC_SecA",
+      "PCG_SecA",
+      "PSM_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511151": {
+    "name": "Meshram Prakarsha Ratnarakshit",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecA",
+      "CB_SecA",
+      "PCG_SecA",
+      "PSM_SecA",
+      "SDM"
+    ]
+  },
+  "2511152": {
+    "name": "Mohan Lal Jangid",
+    "sections": [
+      "DSDT_SecC",
+      "PA_SecB",
+      "PCG_SecA",
+      "PM",
+      "PSM_SecB",
+      "SCM_SecB",
+      "SRC"
+    ]
+  },
+  "2511153": {
+    "name": "Mohata Darshansingh Ajaysingh",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecA",
+      "DSDT_SecA",
+      "FD_SecA",
+      "FSA_SecA",
+      "INV_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511156": {
+    "name": "Naga Sai Manikanta Nandhikolla",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "CV",
+      "DSDT_SecA",
+      "INV_SecA",
+      "PEVC_SecA",
+      "SCM_SecA"
+    ]
+  },
+  "2511157": {
+    "name": "Nandyala Bhuvanesh Reddy",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecA",
+      "FSA_SecA",
+      "PA_SecB",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511158": {
+    "name": "Navneet",
+    "sections": [
+      "B2B_M_SecB",
+      "CV",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecA",
+      "PA_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511159": {
+    "name": "Nikhil Garg",
+    "sections": [
+      "B2B_M_SecA",
+      "CV",
+      "FD_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "MoB",
+      "PEVC_SecA"
+    ]
+  },
+  "2511160": {
+    "name": "Nikita Ramchandani",
+    "sections": [
+      "B2B_M_SecB",
+      "CV",
+      "DSDT_SecC",
+      "FSA_SecB",
+      "INV_SecB",
+      "MoB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511161": {
+    "name": "Nilesh Kishor Hedaoo",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecB",
+      "MSAIC_SecB",
+      "PA_SecB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511162": {
+    "name": "Niraj Dinesh Sonar",
+    "sections": [
+      "CV",
+      "DSDT_SecC",
+      "FD_SecA",
+      "INV_SecA",
+      "MSAIC_SecA",
+      "PA_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511163": {
+    "name": "Nisha Kumari",
+    "sections": [
+      "FD_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MoB",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PEVC_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511164": {
+    "name": "Nitish Kumar",
+    "sections": [
+      "DSDT_SecB",
+      "FSA_SecB",
+      "INV_SecA",
+      "MoB",
+      "MSAIC_SecA",
+      "PEVC_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511165": {
+    "name": "Palaparti V V Sai Anjani Nagendra",
+    "sections": [
+      "B2B_M_SecC",
+      "DSDT_SecA",
+      "FSA_SecA",
+      "INV_SecB",
+      "MG_SecA",
+      "PEVC_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511166": {
+    "name": "Pallav Jalan",
+    "sections": [
+      "CV",
+      "FD_SecB",
+      "MG_SecB",
+      "MoB",
+      "MSAIC_SecA",
+      "PEVC_SecB",
+      "SDM"
+    ]
+  },
+  "2511167": {
+    "name": "Pari Raheja",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "DSDT_SecA",
+      "MSAIC_SecB",
+      "SCM_SecB",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511168": {
+    "name": "Pasula Pujitha Rajeswari",
+    "sections": [
+      "DSDT_SecB",
+      "FD_SecB",
+      "FSA_SecB",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "Rev_Mgmt",
+      "SCM_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511169": {
+    "name": "Pavankumar Vinakota",
+    "sections": [
+      "CB_SecB",
+      "DSDT_SecA",
+      "MG_SecA",
+      "PA_SecA",
+      "PEVC_SecA",
+      "PM",
+      "SCM_SecB"
+    ]
+  },
+  "2511170": {
+    "name": "Poorva Yogesh Kale",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecA",
+      "INV_SecB",
+      "MoB",
+      "MSAIC_SecA",
+      "PEVC_SecB",
+      "PSM_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511171": {
+    "name": "Prabir Pani",
+    "sections": [
+      "B2B_M_SecA",
+      "CV",
+      "DSDT_SecA",
+      "FD_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "PEVC_SecA",
+      "SRC"
+    ]
+  },
+  "2511173": {
+    "name": "Pragya Prasoon",
+    "sections": [
+      "B2B_M_SecB",
+      "DSDT_SecC",
+      "FD_SecB",
+      "INV_SecA",
+      "Rev_Mgmt",
+      "SCM_SecA"
+    ]
+  },
+  "2511174": {
+    "name": "Pragyan Deka",
+    "sections": [
+      "CB_SecB",
+      "CV",
+      "DSDT_SecC",
+      "FD_SecA",
+      "FSA_SecB",
+      "MoB",
+      "MSAIC_SecA",
+      "PEVC_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511175": {
+    "name": "Prajakta Gavali",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecA",
+      "PCG_SecA",
+      "PM",
+      "SDM"
+    ]
+  },
+  "2511177": {
+    "name": "Pranay Sampath Bovini",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecB",
+      "CB_SecA",
+      "DSDT_SecA",
+      "MSAIC_SecB",
+      "PCG_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511178": {
+    "name": "Prashant Tripathi",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecB",
+      "DSDT_SecB",
+      "SCM_SecA",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511179": {
+    "name": "Prateek Gupta",
+    "sections": [
+      "FSA_SecB",
+      "INV_SecA",
+      "PA_SecA",
+      "PCG_SecB",
+      "PSM_SecB",
+      "Rev_Mgmt",
+      "SCM_SecB"
+    ]
+  },
+  "2511180": {
+    "name": "Prateek Jaiswal",
+    "sections": [
+      "DSDT_SecC",
+      "FD_SecA",
+      "FSA_SecA",
+      "MSAIC_SecA",
+      "PA_SecA",
+      "PSM_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511181": {
+    "name": "Pratham Sundriyal",
+    "sections": [
+      "BM_SecB",
+      "DSDT_SecA",
+      "FSA_SecB",
+      "INV_SecB",
+      "MG_SecB",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511182": {
+    "name": "Pravesh Kumar Rai",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecB",
+      "DSDT_SecB",
+      "FSA_SecA",
+      "MG_SecB",
+      "PCG_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511183": {
+    "name": "Priyanshu Gaikwad",
+    "sections": [
+      "CV",
+      "DSDT_SecC",
+      "FD_SecB",
+      "INV_SecB",
+      "MG_SecB",
+      "PA_SecA",
+      "PEVC_SecA"
+    ]
+  },
+  "2511184": {
+    "name": "Pullakandam Saketh Ram",
+    "sections": [
+      "CV",
+      "DSDT_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "MoB",
+      "SCM_SecA"
+    ]
+  },
+  "2511185": {
+    "name": "Pullela Sai Rama Krishna Praneeth",
+    "sections": [
+      "CB_SecB",
+      "DSDT_SecA",
+      "FSA_SecA",
+      "MG_SecA",
+      "MSAIC_SecA",
+      "PA_SecA",
+      "PEVC_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511186": {
+    "name": "Pulthakidiyel Jince Jose",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecB",
+      "CB_SecA",
+      "DSDT_SecC",
+      "INV_SecB",
+      "PM",
+      "TS_ADR"
+    ]
+  },
+  "2511187": {
+    "name": "Rahul Pandey",
+    "sections": [
+      "FD_SecA",
+      "INV_SecA",
+      "PA_SecA",
+      "PM",
+      "Rev_Mgmt",
+      "SCM_SecB",
+      "SRC"
+    ]
+  },
+  "2511188": {
+    "name": "Rahul Prasad Iyer",
+    "sections": [
+      "FD_SecA",
+      "INV_SecA",
+      "MoB",
+      "MSAIC_SecA",
+      "PCG_SecA",
+      "Rev_Mgmt",
+      "SCM_SecB"
+    ]
+  },
+  "2511189": {
+    "name": "Rahul Priyadarshi",
+    "sections": [
+      "B2B_M_SecA",
+      "DSDT_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "MSAIC_SecA",
+      "PA_SecA",
+      "PEVC_SecA",
+      "SCM_SecA"
+    ]
+  },
+  "2511190": {
+    "name": "Rajani Kumawat",
+    "sections": [
+      "B2B_M_SecC",
+      "DSDT_SecB",
+      "FSA_SecA",
+      "HRM_IR",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PCG_SecA",
+      "SCM_SecA"
+    ]
+  },
+  "2511191": {
+    "name": "Rajat Nebhnani",
+    "sections": [
+      "B2B_M_SecB",
+      "DSDT_SecB",
+      "FSA_SecA",
+      "MG_SecB",
+      "PA_SecA",
+      "PCG_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511192": {
+    "name": "Rasheeka Varshney",
+    "sections": [
+      "BM_SecA",
+      "CB_SecA",
+      "FD_SecA",
+      "FSA_SecA",
+      "HRM_IR",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "PEVC_SecB",
+      "PSM_SecA"
+    ]
+  },
+  "2511193": {
+    "name": "Rathod Ashvinkumar Natvarlal",
+    "sections": [
+      "B2B_M_SecA",
+      "DSDT_SecC",
+      "FSA_SecA",
+      "PA_SecB",
+      "PSM_SecB",
+      "SCM_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511195": {
+    "name": "Ritesh Pathak",
+    "sections": [
+      "BM_SecB",
+      "CB_SecA",
+      "DSDT_SecC",
+      "MSAIC_SecA",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "SDM"
+    ]
+  },
+  "2511196": {
+    "name": "Rohan Patel",
+    "sections": [
+      "BM_SecA",
+      "DSDT_SecB",
+      "FSA_SecB",
+      "HRM_IR",
+      "PCG_SecB",
+      "PEVC_SecB",
+      "SCM_SecA",
+      "SRC",
+      "TS_ADR"
+    ]
+  },
+  "2511197": {
+    "name": "Rohan Shivaji Pawar",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecA",
+      "FSA_SecA",
+      "MSAIC_SecA",
+      "PEVC_SecB",
+      "Rev_Mgmt",
+      "SCM_SecA",
+      "SDM"
+    ]
+  },
+  "2511198": {
+    "name": "Rohit Barua",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecB",
+      "FSA_SecA",
+      "MG_SecB",
+      "MSAIC_SecA",
+      "PSM_SecB",
+      "SCM_SecB",
+      "SRC"
+    ]
+  },
+  "2511199": {
+    "name": "Ruchika Jitendra Kshirsagar",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "DSDT_SecB",
+      "PM",
+      "PSM_SecA",
+      "SCM_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511200": {
+    "name": "Rudrakshi Kodap",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecB",
+      "DSDT_SecC",
+      "FSA_SecB",
+      "INV_SecA",
+      "PCG_SecB",
+      "SDM"
+    ]
+  },
+  "2511201": {
+    "name": "Rupal Roy",
+    "sections": [
+      "DSDT_SecC",
+      "FD_SecA",
+      "MoB",
+      "PM",
+      "PSM_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511202": {
+    "name": "Rupapara Paavan Tansukhbhai",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecB",
+      "FSA_SecA",
+      "MG_SecB",
+      "MSAIC_SecA",
+      "PCG_SecA",
+      "SCM_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511203": {
+    "name": "S Bharath Kumar",
+    "sections": [
+      "B2B_M_SecB",
+      "DSDT_SecC",
+      "INV_SecA",
+      "PA_SecA",
+      "Rev_Mgmt",
+      "SCM_SecB",
+      "SRC"
+    ]
+  },
+  "2511204": {
+    "name": "S L Lawrence Simte",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecB",
+      "CB_SecB",
+      "DSDT_SecA",
+      "MG_SecA",
+      "PCG_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511206": {
+    "name": "Sachin Dev",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecA",
+      "DSDT_SecB",
+      "PA_SecA",
+      "PM",
+      "PSM_SecA"
+    ]
+  },
+  "2511207": {
+    "name": "Sahil Sachin Wadajkar",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecB",
+      "DSDT_SecB",
+      "MG_SecB",
+      "MoB",
+      "MSAIC_SecA",
+      "SDM"
+    ]
+  },
+  "2511208": {
+    "name": "Saloni Dayal",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecB",
+      "CB_SecB",
+      "DSDT_SecC",
+      "PSM_SecB",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511209": {
+    "name": "Samanth Bhat K",
+    "sections": [
+      "B2B_M_SecC",
+      "DSDT_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MG_SecB",
+      "PA_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511210": {
+    "name": "Sameer Balaso Jamdar",
+    "sections": [
+      "BM_SecB",
+      "CB_SecB",
+      "MoB",
+      "MSAIC_SecA",
+      "PEVC_SecA",
+      "PSM_SecB",
+      "SDM"
+    ]
+  },
+  "2511211": {
+    "name": "Sankalp",
+    "sections": [
+      "CV",
+      "FD_SecA",
+      "INV_SecA",
+      "PA_SecA",
+      "PEVC_SecA",
+      "PSM_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511213": {
+    "name": "Sanskriti Shrimal",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "DSDT_SecB",
+      "INV_SecB",
+      "MG_SecB",
+      "MSAIC_SecA",
+      "SDM"
+    ]
+  },
+  "2511214": {
+    "name": "Sanya Dagaria",
+    "sections": [
+      "BM_SecB",
+      "CB_SecB",
+      "DSDT_SecC",
+      "FD_SecA",
+      "MSAIC_SecA",
+      "PEVC_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511215": {
+    "name": "Sarita Khokhar",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecB",
+      "HRM_IR",
+      "PA_SecB",
+      "PCG_SecB",
+      "PSM_SecA",
+      "SRC"
+    ]
+  },
+  "2511216": {
+    "name": "Sarthak Saxena",
+    "sections": [
+      "CV",
+      "FD_SecB",
+      "INV_SecB",
+      "MG_SecA",
+      "MoB",
+      "MSAIC_SecA",
+      "PA_SecB"
+    ]
+  },
+  "2511217": {
+    "name": "Sarthak Taneja",
+    "sections": [
+      "FD_SecB",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PCG_SecB",
+      "PEVC_SecB",
+      "Rev_Mgmt",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511218": {
+    "name": "Saurabh Manohar Patil",
+    "sections": [
+      "BM_SecA",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PCG_SecA",
+      "PM",
+      "PSM_SecA",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511219": {
+    "name": "Selva Ganesh K",
+    "sections": [
+      "CV",
+      "DSDT_SecA",
+      "FD_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "PA_SecA",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511221": {
+    "name": "Sharmeen Shakil Nayakavadi",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecB",
+      "DSDT_SecC",
+      "MG_SecB",
+      "PCG_SecB",
+      "PEVC_SecB",
+      "PSM_SecB"
+    ]
+  },
+  "2511222": {
+    "name": "Shashank Kumar",
+    "sections": [
+      "CB_SecB",
+      "FD_SecA",
+      "MSAIC_SecB",
+      "PA_SecB",
+      "PCG_SecB",
+      "PEVC_SecB",
+      "SRC"
+    ]
+  },
+  "2511223": {
+    "name": "Shashi Shekhar",
+    "sections": [
+      "BM_SecA",
+      "DSDT_SecB",
+      "INV_SecA",
+      "PM",
+      "Rev_Mgmt",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511224": {
+    "name": "Shikhar Kumar",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecB",
+      "DSDT_SecB",
+      "HRM_IR",
+      "INV_SecA",
+      "SCM_SecA"
+    ]
+  },
+  "2511226": {
+    "name": "Shivangi Uikey",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecB",
+      "HRM_IR",
+      "PCG_SecB",
+      "PSM_SecA",
+      "SDM"
+    ]
+  },
+  "2511227": {
+    "name": "Shivanshu Goswami",
+    "sections": [
+      "BM_SecB",
+      "CB_SecA",
+      "FD_SecA",
+      "INV_SecB",
+      "MoB",
+      "MSAIC_SecA",
+      "PEVC_SecA"
+    ]
+  },
+  "2511228": {
+    "name": "Shouvik Chatterjee",
+    "sections": [
+      "B2B_M_SecA",
+      "CB_SecB",
+      "MG_SecA",
+      "MSAIC_SecA",
+      "PM",
+      "PSM_SecA",
+      "SDM"
+    ]
+  },
+  "2511229": {
+    "name": "Shreya",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecB",
+      "DSDT_SecB",
+      "HRM_IR",
+      "MG_SecB",
+      "MSAIC_SecA",
+      "PSM_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511230": {
+    "name": "Shreyash Agarwal",
+    "sections": [
+      "CB_SecB",
+      "CV",
+      "FD_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "MoB",
+      "PEVC_SecA"
+    ]
+  },
+  "2511231": {
+    "name": "Shricharan Arumugam",
+    "sections": [
+      "B2B_M_SecB",
+      "DSDT_SecB",
+      "INV_SecB",
+      "MG_SecA",
+      "MSAIC_SecA",
+      "PCG_SecA",
+      "PSM_SecA"
+    ]
+  },
+  "2511232": {
+    "name": "Shruti Namdeorao Kandhare",
+    "sections": [
+      "B2B_M_SecC",
+      "CB_SecA",
+      "DSDT_SecB",
+      "PCG_SecA",
+      "PM",
+      "PSM_SecA"
+    ]
+  },
+  "2511233": {
+    "name": "Shruti Satdeve",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecB",
+      "DSDT_SecC",
+      "MG_SecB",
+      "PM",
+      "SCM_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511234": {
+    "name": "Shubham Narcinva Bene",
+    "sections": [
+      "BM_SecB",
+      "FD_SecA",
+      "MoB",
+      "PA_SecB",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511235": {
+    "name": "Shubhangi Gupta",
+    "sections": [
+      "B2B_M_SecA",
+      "CB_SecB",
+      "DSDT_SecA",
+      "MSAIC_SecA",
+      "PEVC_SecA",
+      "PSM_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511236": {
+    "name": "Siddharth Meena",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecB",
+      "DSDT_SecB",
+      "FD_SecA",
+      "MSAIC_SecA",
+      "PCG_SecA",
+      "SRC"
+    ]
+  },
+  "2511237": {
+    "name": "Siddharth Rajput",
+    "sections": [
+      "B2B_M_SecB",
+      "DSDT_SecC",
+      "MG_SecA",
+      "MSAIC_SecA",
+      "PEVC_SecB",
+      "PSM_SecB",
+      "SCM_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511238": {
+    "name": "Simran Kunpara",
+    "sections": [
+      "CV",
+      "FSA_SecA",
+      "INV_SecB",
+      "MG_SecA",
+      "PEVC_SecA",
+      "PSM_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511240": {
+    "name": "Simran Singh",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecB",
+      "HRM_IR",
+      "MG_SecB",
+      "PCG_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511241": {
+    "name": "Singh Shubham Shankar",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecB",
+      "CB_SecB",
+      "DSDT_SecC",
+      "MoB",
+      "MSAIC_SecA",
+      "PEVC_SecB"
+    ]
+  },
+  "2511242": {
+    "name": "Singh Suyash Sanjay Kumar",
+    "sections": [
+      "B2B_M_SecA",
+      "FD_SecB",
+      "FSA_SecA",
+      "INV_SecB",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "SCM_SecA"
+    ]
+  },
+  "2511244": {
+    "name": "Solanki Utsav Prakashchandra",
+    "sections": [
+      "FD_SecA",
+      "MoB",
+      "PA_SecB",
+      "PCG_SecB",
+      "PEVC_SecA",
+      "PSM_SecA",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511245": {
+    "name": "Someshwar Jaiswal",
+    "sections": [
+      "B2B_M_SecB",
+      "CV",
+      "FD_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MG_SecA",
+      "SRC"
+    ]
+  },
+  "2511246": {
+    "name": "Sonali Joshi",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecB",
+      "DSDT_SecC",
+      "FSA_SecA",
+      "MG_SecB",
+      "PCG_SecA",
+      "PM"
+    ]
+  },
+  "2511247": {
+    "name": "Sonam Rai",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "CB_SecA",
+      "DSDT_SecA",
+      "INV_SecB",
+      "PCG_SecB",
+      "PEVC_SecA"
+    ]
+  },
+  "2511248": {
+    "name": "Soumya Nagdali",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "CB_SecB",
+      "DSDT_SecA",
+      "MoB",
+      "MSAIC_SecB",
+      "PCG_SecB"
+    ]
+  },
+  "2511249": {
+    "name": "Sourav Sonowal",
+    "sections": [
+      "BM_SecB",
+      "INV_SecB",
+      "PA_SecB",
+      "PCG_SecA",
+      "PSM_SecB",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511250": {
+    "name": "Sravya Bandaru",
+    "sections": [
+      "CB_SecB",
+      "DSDT_SecA",
+      "FSA_SecB",
+      "MG_SecA",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PEVC_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511251": {
+    "name": "Sri Krishnan M",
+    "sections": [
+      "B2B_M_SecB",
+      "CV",
+      "DSDT_SecC",
+      "FD_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "PA_SecA"
+    ]
+  },
+  "2511252": {
+    "name": "Srii Swathish R",
+    "sections": [
+      "B2B_M_SecB",
+      "DSDT_SecC",
+      "INV_SecA",
+      "PA_SecA",
+      "PEVC_SecB",
+      "Rev_Mgmt",
+      "SCM_SecB"
+    ]
+  },
+  "2511253": {
+    "name": "Subhadeep Kuila",
+    "sections": [
+      "B2B_M_SecA",
+      "CV",
+      "DSDT_SecA",
+      "FD_SecA",
+      "PA_SecA",
+      "PEVC_SecA",
+      "PSM_SecB"
+    ]
+  },
+  "2511254": {
+    "name": "Subodh Ashok Dawane",
+    "sections": [
+      "DSDT_SecB",
+      "HRM_IR",
+      "INV_SecB",
+      "MG_SecA",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "SCM_SecB",
+      "SRC"
+    ]
+  },
+  "2511255": {
+    "name": "Sudhanshu Ranjan",
+    "sections": [
+      "BM_SecB",
+      "FSA_SecB",
+      "MG_SecB",
+      "PEVC_SecB",
+      "PM",
+      "PSM_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511256": {
+    "name": "Surabhi Paliwal",
+    "sections": [
+      "B2B_M_SecA",
+      "DSDT_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "PA_SecA",
+      "PSM_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511257": {
+    "name": "Swapnil Deepak Thakur",
+    "sections": [
+      "B2B_M_SecA",
+      "DSDT_SecA",
+      "MG_SecB",
+      "PM",
+      "SCM_SecB",
+      "SDM",
+      "SRC"
+    ]
+  },
+  "2511258": {
+    "name": "Swastik Babu",
+    "sections": [
+      "BM_SecA",
+      "DSDT_SecA",
+      "FD_SecA",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "SCM_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511259": {
+    "name": "Talsampili Debbarma",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecB",
+      "DSDT_SecB",
+      "PM",
+      "SDM"
+    ]
+  },
+  "2511260": {
+    "name": "Tanay Amit Sinha",
+    "sections": [
+      "CV",
+      "FD_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MoB",
+      "PEVC_SecB",
+      "PSM_SecB"
+    ]
+  },
+  "2511261": {
+    "name": "Tanay Babasaheb Kolekar",
+    "sections": [
+      "BM_SecB",
+      "DSDT_SecC",
+      "FSA_SecA",
+      "MG_SecA",
+      "MoB",
+      "PEVC_SecA",
+      "PM",
+      "TS_ADR"
+    ]
+  },
+  "2511262": {
+    "name": "Tanna Sai Siddhartha",
+    "sections": [
+      "FD_SecB",
+      "HRM_IR",
+      "MG_SecA",
+      "PA_SecA",
+      "PCG_SecB",
+      "PEVC_SecB",
+      "Rev_Mgmt",
+      "SRC"
+    ]
+  },
+  "2511264": {
+    "name": "Tejavathu Mamatha",
+    "sections": [
+      "B2B_M_SecC",
+      "CB_SecA",
+      "DSDT_SecA",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511265": {
+    "name": "Thakrar Kush Samirbhai",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecB",
+      "PSM_SecA",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511266": {
+    "name": "Theja praji nair",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecB",
+      "PSM_SecA",
+      "SDM"
+    ]
+  },
+  "2511267": {
+    "name": "Tushar Kishore Chaudhary",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecB",
+      "DSDT_SecC",
+      "FD_SecA",
+      "FSA_SecB",
+      "PEVC_SecB",
+      "PSM_SecB"
+    ]
+  },
+  "2511268": {
+    "name": "Tushar Sharma",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "DSDT_SecA",
+      "FD_SecB",
+      "HRM_IR",
+      "MSAIC_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511269": {
+    "name": "Ugadhi Mananya",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecB",
+      "MSAIC_SecA",
+      "PA_SecA",
+      "PSM_SecA"
+    ]
+  },
+  "2511270": {
+    "name": "Ujjwal Yadav",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecB",
+      "DSDT_SecB",
+      "MG_SecB",
+      "PEVC_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511272": {
+    "name": "Vaibhav Chauhan",
+    "sections": [
+      "B2B_M_SecA",
+      "CB_SecA",
+      "CV",
+      "FD_SecA",
+      "INV_SecB",
+      "MSAIC_SecB",
+      "PSM_SecA"
+    ]
+  },
+  "2511273": {
+    "name": "Vaibhav Ji Srivastava",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecA",
+      "CB_SecB",
+      "DSDT_SecA",
+      "MG_SecB",
+      "MSAIC_SecB",
+      "PCG_SecB"
+    ]
+  },
+  "2511274": {
+    "name": "Vanshika Verma",
+    "sections": [
+      "B2B_M_SecA",
+      "DSDT_SecA",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PCG_SecB",
+      "PSM_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511275": {
+    "name": "Varun Satish Somwanshi",
+    "sections": [
+      "B2B_M_SecA",
+      "CV",
+      "FSA_SecA",
+      "INV_SecA",
+      "PSM_SecB",
+      "Rev_Mgmt",
+      "SCM_SecA"
+    ]
+  },
+  "2511276": {
+    "name": "Vibhor Srivastava",
+    "sections": [
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecB",
+      "HRM_IR",
+      "PCG_SecA",
+      "PM",
+      "SCM_SecA"
+    ]
+  },
+  "2511277": {
+    "name": "Videh Verma",
+    "sections": [
+      "B2B_M_SecB",
+      "DSDT_SecC",
+      "FD_SecB",
+      "INV_SecA",
+      "Rev_Mgmt",
+      "SCM_SecA"
+    ]
+  },
+  "2511278": {
+    "name": "Vidhi Avasthi",
+    "sections": [
+      "BM_SecB",
+      "CV",
+      "FD_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MG_SecB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511279": {
+    "name": "Vidhi Rathi",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecA",
+      "CB_SecA",
+      "FSA_SecA",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511280": {
+    "name": "Vignesh C Arun",
+    "sections": [
+      "B2B_M_SecA",
+      "DSDT_SecC",
+      "FD_SecA",
+      "INV_SecA",
+      "PA_SecA",
+      "SCM_SecB",
+      "SRC"
+    ]
+  },
+  "2511281": {
+    "name": "Vishal Thakur",
+    "sections": [
+      "FSA_SecB",
+      "INV_SecB",
+      "MG_SecA",
+      "MoB",
+      "PA_SecB",
+      "PEVC_SecB",
+      "PM"
+    ]
+  },
+  "2511282": {
+    "name": "Vishishta Agrawal",
+    "sections": [
+      "BM_SecA",
+      "DSDT_SecA",
+      "FD_SecA",
+      "INV_SecA",
+      "MSAIC_SecA",
+      "PEVC_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511283": {
+    "name": "Vishwesh Khemnar",
+    "sections": [
+      "B2B_M_SecC",
+      "DSDT_SecC",
+      "INV_SecB",
+      "MG_SecB",
+      "PA_SecB",
+      "PCG_SecB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511285": {
+    "name": "Vooika Laxmikanth",
+    "sections": [
+      "B2B_M_SecA",
+      "CB_SecB",
+      "MSAIC_SecB",
+      "PA_SecB",
+      "PCG_SecB",
+      "PEVC_SecA",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511286": {
+    "name": "Yesha Tusharkumar Dhivar",
+    "sections": [
+      "BM_SecB",
+      "CV",
+      "FD_SecB",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "Rev_Mgmt",
+      "SRC"
+    ]
+  },
+  "2511287": {
+    "name": "Yogendar Singh Thakurathi",
+    "sections": [
+      "FD_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "PA_SecA",
+      "PM",
+      "PSM_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511288": {
+    "name": "Ananya Jain",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecB",
+      "DSDT_SecA",
+      "MG_SecB",
+      "PCG_SecB",
+      "PEVC_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511289": {
+    "name": "Anushka Prajapat",
+    "sections": [
+      "BM_SecB",
+      "CB_SecB",
+      "DSDT_SecA",
+      "MoB",
+      "MSAIC_SecB",
+      "PCG_SecA",
+      "PEVC_SecA"
+    ]
+  },
+  "2511290": {
+    "name": "Harshdeep Dudhmal",
+    "sections": [
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecB",
+      "MSAIC_SecA",
+      "PA_SecA",
+      "PSM_SecA",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511292": {
+    "name": "Lalchandani Karvy Nanak",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "CB_SecA",
+      "DSDT_SecC",
+      "HRM_IR",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511293": {
+    "name": "Khushi Khandelwal",
+    "sections": [
+      "DSDT_SecC",
+      "MG_SecA",
+      "PCG_SecB",
+      "PSM_SecB",
+      "Rev_Mgmt",
+      "SCM_SecB",
+      "SRC"
+    ]
+  },
+  "2511294": {
+    "name": "Krishaansh",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecA",
+      "CB_SecA",
+      "PCG_SecA",
+      "PM",
+      "SCM_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511295": {
+    "name": "Mohan Raghavbhai Shihora",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecA",
+      "CB_SecA",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "SCM_SecA",
+      "SDM"
+    ]
+  },
+  "2511296": {
+    "name": "Bhayani Mohitkumar Arvindbhai",
+    "sections": [
+      "B2B_M_SecA",
+      "DSDT_SecA",
+      "PA_SecA",
+      "PM",
+      "Rev_Mgmt",
+      "SCM_SecA"
+    ]
+  },
+  "2511298": {
+    "name": "Prathamesh Aniket Pradhan",
+    "sections": [
+      "FD_SecB",
+      "INV_SecB",
+      "MoB",
+      "MSAIC_SecB",
+      "PA_SecB",
+      "PCG_SecB",
+      "PSM_SecA"
+    ]
+  },
+  "2511299": {
+    "name": "Ritik Mehndiratta",
+    "sections": [
+      "B2B_M_SecB",
+      "CV",
+      "DSDT_SecC",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecB",
+      "PSM_SecB"
+    ]
+  },
+  "2511300": {
+    "name": "Rohan Jakhar",
+    "sections": [
+      "CV",
+      "FD_SecB",
+      "MG_SecB",
+      "MoB",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511301": {
+    "name": "Rohit Vitthal Walthare",
+    "sections": [
+      "B2B_M_SecB",
+      "DSDT_SecB",
+      "PA_SecA",
+      "PM",
+      "PSM_SecA",
+      "SCM_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511302": {
+    "name": "Shailesh Kumar Yadav",
+    "sections": [
+      "DSDT_SecC",
+      "INV_SecB",
+      "PA_SecB",
+      "PM",
+      "PSM_SecB",
+      "SCM_SecB"
+    ]
+  },
+  "2511303": {
+    "name": "Shivam Kumar Vimal",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecB",
+      "HRM_IR",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511304": {
+    "name": "Shivanshu Raj",
+    "sections": [
+      "DSDT_SecC",
+      "FD_SecB",
+      "MoB",
+      "PA_SecB",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511305": {
+    "name": "Shivkumar Parmar",
+    "sections": [
+      "CB_SecA",
+      "FD_SecA",
+      "FSA_SecB",
+      "PA_SecA",
+      "PCG_SecB",
+      "Rev_Mgmt",
+      "SCM_SecB"
+    ]
+  },
+  "2511306": {
+    "name": "Sparsh Gupta",
+    "sections": [
+      "B2B_M_SecA",
+      "CB_SecA",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "Rev_Mgmt",
+      "SCM_SecA",
+      "SDM"
+    ]
+  },
+  "2511307": {
+    "name": "Sreedhar Rajesh",
+    "sections": [
+      "B2B_M_SecA",
+      "CB_SecA",
+      "FSA_SecA",
+      "INV_SecB",
+      "MSAIC_SecB",
+      "PSM_SecA",
+      "SDM"
+    ]
+  },
+  "2511308": {
+    "name": "Stuti Wahi",
+    "sections": [
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecB",
+      "PM",
+      "PSM_SecA",
+      "SCM_SecA"
+    ]
+  },
+  "2511309": {
+    "name": "Tejaswi Bhagat",
+    "sections": [
+      "CV",
+      "FD_SecB",
+      "FSA_SecA",
+      "INV_SecB",
+      "MG_SecA",
+      "MoB",
+      "PEVC_SecA"
+    ]
+  },
+  "2511310": {
+    "name": "Urvashi",
+    "sections": [
+      "CV",
+      "DSDT_SecB",
+      "FD_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MG_SecB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511311": {
+    "name": "Vedant Vikas Patil",
+    "sections": [
+      "B2B_M_SecA",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PCG_SecB",
+      "PSM_SecB",
+      "Rev_Mgmt",
+      "SCM_SecA"
+    ]
+  },
+  "2511312": {
+    "name": "Vidisha Kuldeep Fulzele",
+    "sections": [
+      "BM_SecA",
+      "CB_SecB",
+      "HRM_IR",
+      "PA_SecB",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "PSM_SecA",
+      "SRC"
+    ]
+  },
+  "2511313": {
+    "name": "Yassar Mohammed",
+    "sections": [
+      "B2B_M_SecB",
+      "CV",
+      "DSDT_SecB",
+      "PA_SecA",
+      "PCG_SecA",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511314": {
+    "name": "Zohmingliani Ralte",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecA",
+      "PM",
+      "SRC",
+      "TS_ADR"
+    ]
+  },
+  "2511315": {
+    "name": "Amulya Yadav",
+    "sections": [
+      "CB_SecA",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecB",
+      "MoB",
+      "PEVC_SecB",
+      "PM",
+      "TS_ADR"
+    ]
+  },
+  "2511316": {
+    "name": "Disha Gupta",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "CB_SecA",
+      "DSDT_SecC",
+      "HRM_IR",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511317": {
+    "name": "Harsh Kamal Bathija",
+    "sections": [
+      "CB_SecB",
+      "DSDT_SecC",
+      "FD_SecA",
+      "PA_SecB",
+      "PCG_SecA",
+      "PSM_SecB"
+    ]
+  },
+  "2511318": {
+    "name": "Kamthe Om Rajendra",
+    "sections": [
+      "B2B_M_SecC",
+      "DSDT_SecA",
+      "FSA_SecB",
+      "INV_SecA",
+      "MoB",
+      "PCG_SecB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511319": {
+    "name": "Ketki Borikar",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecA",
+      "CB_SecB",
+      "DSDT_SecB",
+      "MG_SecA",
+      "MSAIC_SecA",
+      "PSM_SecA"
+    ]
+  },
+  "2511321": {
+    "name": "Neil Deshmukh",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecB",
+      "DSDT_SecB",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "SDM"
+    ]
+  },
+  "2511322": {
+    "name": "Nidhi Kumari",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecA",
+      "PM",
+      "SCM_SecB",
+      "SDM",
+      "SRC",
+      "TS_ADR"
+    ]
+  },
+  "2511323": {
+    "name": "Rahul Natwadiya",
+    "sections": [
+      "B2B_M_SecA",
+      "DSDT_SecA",
+      "FD_SecA",
+      "INV_SecA",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511324": {
+    "name": "Ritviz Mishra",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecB",
+      "DSDT_SecC",
+      "FSA_SecB",
+      "INV_SecA",
+      "PCG_SecB",
+      "SDM"
+    ]
+  },
+  "2511325": {
+    "name": "Ronit Kumar Singh",
+    "sections": [
+      "FD_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "PA_SecB",
+      "PEVC_SecB",
+      "PM",
+      "SCM_SecA"
+    ]
+  },
+  "2511326": {
+    "name": "Siddharth Prabhakar Sunatkari",
+    "sections": [
+      "DSDT_SecC",
+      "FD_SecA",
+      "MoB",
+      "PA_SecA",
+      "PSM_SecB",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511327": {
+    "name": "Yashvee Dipak Kumar Patel",
+    "sections": [
+      "CB_SecB",
+      "FD_SecB",
+      "FSA_SecA",
+      "INV_SecA",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511328": {
+    "name": "Akhil Jose",
+    "sections": [
+      "MG_SecB",
+      "PA_SecB",
+      "PM",
+      "PSM_SecB",
+      "Rev_Mgmt",
+      "SCM_SecB",
+      "SRC"
+    ]
+  },
+  "2511329": {
+    "name": "Anmolpreet Singh",
+    "sections": [
+      "DSDT_SecB",
+      "PA_SecA",
+      "PM",
+      "PSM_SecA",
+      "Rev_Mgmt",
+      "SCM_SecB",
+      "SRC"
+    ]
+  },
+  "2511330": {
+    "name": "Aryaman Singh Patel",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecA",
+      "DSDT_SecB",
+      "PCG_SecB",
+      "PEVC_SecB",
+      "PSM_SecA",
+      "SRC",
+      "TS_ADR"
+    ]
+  },
+  "2511331": {
+    "name": "Atikant Rajpoot",
+    "sections": [
+      "CV",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecA",
+      "PSM_SecA",
+      "Rev_Mgmt",
+      "SCM_SecB"
+    ]
+  },
+  "2511332": {
+    "name": "Chheda Jay Ramesh",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecA",
+      "CB_SecA",
+      "INV_SecB",
+      "MSAIC_SecA",
+      "PA_SecA",
+      "PEVC_SecA"
+    ]
+  },
+  "2511333": {
+    "name": "Devashish Jose",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "DSDT_SecA",
+      "FSA_SecA",
+      "MG_SecA",
+      "MSAIC_SecB",
+      "PEVC_SecA",
+      "PSM_SecB"
+    ]
+  },
+  "2511334": {
+    "name": "Gaurpriya",
+    "sections": [
+      "B2B_M_SecA",
+      "DSDT_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "PCG_SecB",
+      "PEVC_SecA",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511337": {
+    "name": "Jainil Shah",
+    "sections": [
+      "CV",
+      "FD_SecB",
+      "FSA_SecA",
+      "INV_SecB",
+      "MG_SecA",
+      "MoB",
+      "PEVC_SecA"
+    ]
+  },
+  "2511338": {
+    "name": "K H Arjeth",
+    "sections": [
+      "B2B_M_SecA",
+      "FD_SecB",
+      "INV_SecA",
+      "PEVC_SecA",
+      "SCM_SecA",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511339": {
+    "name": "Kartikeya Verma",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "DSDT_SecA",
+      "MSAIC_SecA",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "SCM_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511340": {
+    "name": "Kushagra Garg",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecB",
+      "FD_SecA",
+      "MoB",
+      "PA_SecB",
+      "PCG_SecB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511341": {
+    "name": "Mayur Bisane",
+    "sections": [
+      "B2B_M_SecA",
+      "CB_SecB",
+      "DSDT_SecA",
+      "MSAIC_SecA",
+      "PSM_SecB",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511342": {
+    "name": "Pancholi Keyur Rakeshkumar",
+    "sections": [
+      "B2B_M_SecA",
+      "DSDT_SecC",
+      "FD_SecB",
+      "INV_SecB",
+      "MG_SecA",
+      "MSAIC_SecA",
+      "PEVC_SecA",
+      "TS_ADR"
+    ]
+  },
+  "2511343": {
+    "name": "Pearl",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecB",
+      "CB_SecB",
+      "DSDT_SecA",
+      "HRM_IR",
+      "MSAIC_SecB",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511344": {
+    "name": "Polaki Dinesh",
+    "sections": [
+      "B2B_M_SecC",
+      "CB_SecB",
+      "DSDT_SecA",
+      "FSA_SecB",
+      "INV_SecA",
+      "PSM_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511345": {
+    "name": "Rahul",
+    "sections": [
+      "BM_SecB",
+      "HRM_IR",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "Rev_Mgmt",
+      "SCM_SecA",
+      "SDM",
+      "SRC"
+    ]
+  },
+  "2511346": {
+    "name": "Rishi Ameta",
+    "sections": [
+      "CV",
+      "FD_SecA",
+      "INV_SecA",
+      "PA_SecB",
+      "PCG_SecA",
+      "SCM_SecB",
+      "SRC"
+    ]
+  },
+  "2511348": {
+    "name": "Sarthak Sanjay Gutte",
+    "sections": [
+      "B2B_M_SecA",
+      "DSDT_SecA",
+      "INV_SecA",
+      "PA_SecA",
+      "PEVC_SecA",
+      "Rev_Mgmt",
+      "SCM_SecA"
+    ]
+  },
+  "2511349": {
+    "name": "Srashti Rastogi",
+    "sections": [
+      "B2B_M_SecA",
+      "CV",
+      "FSA_SecA",
+      "INV_SecA",
+      "PSM_SecA",
+      "Rev_Mgmt",
+      "SCM_SecA"
+    ]
+  },
+  "2511350": {
+    "name": "Tanmay Kanungo",
+    "sections": [
+      "BM_SecB",
+      "CB_SecB",
+      "FD_SecA",
+      "MoB",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511351": {
+    "name": "Varun Saha",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "CB_SecA",
+      "CV",
+      "INV_SecB",
+      "MSAIC_SecB",
+      "PSM_SecB"
+    ]
+  },
+  "2511352": {
+    "name": "Vishwajeet Rajendra Patil",
+    "sections": [
+      "B2B_M_SecA",
+      "CB_SecB",
+      "FSA_SecA",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "PSM_SecB",
+      "SDM",
+      "SRC"
+    ]
+  },
+  "2511353": {
+    "name": "Bhumika Manker",
+    "sections": [
+      "B2B_M_SecA",
+      "CV",
+      "FD_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "PA_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511354": {
+    "name": "Himanshu Yadav",
+    "sections": [
+      "B2B_M_SecB",
+      "INV_SecB",
+      "PCG_SecA",
+      "PM",
+      "SCM_SecB",
+      "SDM",
+      "SRC"
+    ]
+  },
+  "2511355": {
+    "name": "Nandan Javiya",
+    "sections": [
+      "B2B_M_SecC",
+      "FD_SecB",
+      "FSA_SecB",
+      "HRM_IR",
+      "INV_SecB",
+      "MG_SecB",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511356": {
+    "name": "Reddy Chandra Mouli",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecA",
+      "PM",
+      "SDM"
+    ]
+  },
+  "2511357": {
+    "name": "Ayush Chauhan",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecA",
+      "CB_SecB",
+      "DSDT_SecA",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "SDM"
+    ]
+  },
+  "2511358": {
+    "name": "Aditya Chauhan",
+    "sections": [
+      "B2B_M_SecB",
+      "FSA_SecA",
+      "MG_SecB",
+      "PCG_SecA",
+      "PM",
+      "SDM",
+      "SRC"
+    ]
+  },
+  "2511360": {
+    "name": "Akhil Verma",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecA",
+      "DSDT_SecB",
+      "FSA_SecA",
+      "PCG_SecA",
+      "PM",
+      "SDM"
+    ]
+  },
+  "2511361": {
+    "name": "Aditi Kakkar",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MSAIC_SecB",
+      "PEVC_SecB",
+      "PSM_SecB",
+      "SDM"
+    ]
+  },
+  "2511362": {
+    "name": "Rajan Singh",
+    "sections": [
+      "DSDT_SecC",
+      "INV_SecA",
+      "MSAIC_SecA",
+      "PEVC_SecB",
+      "PSM_SecB",
+      "Rev_Mgmt",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511363": {
+    "name": "Kambala Bhavya",
+    "sections": [
+      "B2B_M_SecB",
+      "DSDT_SecC",
+      "INV_SecA",
+      "MSAIC_SecA",
+      "PEVC_SecB",
+      "PSM_SecB",
+      "SCM_SecB",
+      "SRC"
+    ]
+  },
+  "2511364": {
+    "name": "Sneha S Rajan",
+    "sections": [
+      "BM_SecB",
+      "CB_SecA",
+      "DSDT_SecA",
+      "MSAIC_SecB",
+      "PCG_SecA",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511365": {
+    "name": "Kajal Patil",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "CB_SecA",
+      "DSDT_SecC",
+      "PEVC_SecA",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511366": {
+    "name": "Devansh Gupta",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "CB_SecA",
+      "DSDT_SecB",
+      "PM",
+      "SDM",
+      "TS_ADR"
+    ]
+  },
+  "2511367": {
+    "name": "Sayalee Gomase",
+    "sections": [
+      "B2B_M_SecA",
+      "CB_SecB",
+      "FSA_SecA",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "PSM_SecB",
+      "SDM",
+      "SRC"
+    ]
+  },
+  "2511368": {
+    "name": "Shivani Chaudhary",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecB",
+      "DSDT_SecC",
+      "FSA_SecA",
+      "PCG_SecB",
+      "SCM_SecB",
+      "SRC",
+      "TS_ADR"
+    ]
+  },
+  "2511369": {
+    "name": "Akshat Agrawal",
+    "sections": [
+      "B2B_M_SecC",
+      "INV_SecA",
+      "PA_SecB",
+      "PEVC_SecB",
+      "PM",
+      "PSM_SecA",
+      "SCM_SecA"
+    ]
+  },
+  "2511370": {
+    "name": "Patnayakuni Kiran",
+    "sections": [
+      "BM_SecB",
+      "CB_SecB",
+      "MG_SecA",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "PM",
+      "PSM_SecB"
+    ]
+  },
+  "2511371": {
+    "name": "Palak Bhoot",
+    "sections": [
+      "B2B_M_SecC",
+      "CB_SecB",
+      "DSDT_SecB",
+      "FSA_SecB",
+      "MG_SecB",
+      "PSM_SecA",
+      "SDM"
+    ]
+  },
+  "2511372": {
+    "name": "Kaenat Akhtiyar",
+    "sections": [
+      "DSDT_SecB",
+      "FSA_SecB",
+      "PA_SecA",
+      "PM",
+      "PSM_SecA",
+      "Rev_Mgmt",
+      "SCM_SecA"
+    ]
+  },
+  "2511373": {
+    "name": "Aashish Singh",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "FSA_SecA",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "PEVC_SecA",
+      "PSM_SecB",
+      "SCM_SecA"
+    ]
+  },
+  "2511374": {
+    "name": "Yash Gohel",
+    "sections": [
+      "BM_SecA",
+      "FD_SecA",
+      "INV_SecA",
+      "MSAIC_SecA",
+      "PEVC_SecA",
+      "SCM_SecB",
+      "SDM"
+    ]
+  },
+  "2511375": {
+    "name": "Archit Negi",
+    "sections": [
+      "B2B_M_SecB",
+      "CV",
+      "DSDT_SecC",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecB",
+      "PA_SecA"
+    ]
+  },
+  "2511377": {
+    "name": "Dhruv Garg",
+    "sections": [
+      "B2B_M_SecA",
+      "FD_SecB",
+      "FSA_SecA",
+      "INV_SecA",
+      "PEVC_SecA",
+      "PM",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511378": {
+    "name": "Ankit Kumar Jha",
+    "sections": [
+      "BM_SecB",
+      "DSDT_SecA",
+      "PA_SecB",
+      "PM",
+      "PSM_SecB",
+      "SCM_SecB",
+      "SRC"
+    ]
+  },
+  "2511379": {
+    "name": "Prahesh Rajendrakumar Charthal",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecA",
+      "DSDT_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MoB",
+      "PEVC_SecB",
+      "TS_ADR"
+    ]
+  },
+  "2511380": {
+    "name": "Yash Sharma",
+    "sections": [
+      "B2B_M_SecB",
+      "CV",
+      "DSDT_SecC",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecA",
+      "PA_SecA"
+    ]
+  },
+  "2511381": {
+    "name": "Gaurav Soni",
+    "sections": [
+      "B2B_M_SecB",
+      "CV",
+      "DSDT_SecC",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecA",
+      "PA_SecA"
+    ]
+  },
+  "2511382": {
+    "name": "Ashish Nama",
+    "sections": [
+      "B2B_M_SecB",
+      "DSDT_SecC",
+      "FD_SecA",
+      "FSA_SecB",
+      "INV_SecA",
+      "PA_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511383": {
+    "name": "Srivathsan T V",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "CB_SecA",
+      "DSDT_SecA",
+      "PCG_SecB",
+      "PSM_SecB"
+    ]
+  },
+  "2511384": {
+    "name": "Jayanjan Bhattacharya",
+    "sections": [
+      "B2B_M_SecA",
+      "BM_SecB",
+      "CB_SecA",
+      "DSDT_SecA",
+      "MSAIC_SecA",
+      "PSM_SecB",
+      "SDM"
+    ]
+  },
+  "2511385": {
+    "name": "Sparsh Ranjan",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecA",
+      "DSDT_SecB",
+      "FSA_SecA",
+      "PCG_SecA",
+      "PM",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511386": {
+    "name": "Ananya",
+    "sections": [
+      "B2B_M_SecB",
+      "BM_SecB",
+      "CB_SecA",
+      "DSDT_SecC",
+      "FD_SecA",
+      "MSAIC_SecA",
+      "PEVC_SecB"
+    ]
+  },
+  "2511387": {
+    "name": "Adarsh Jaiswal",
+    "sections": [
+      "B2B_M_SecB",
+      "CB_SecA",
+      "FSA_SecA",
+      "HRM_IR",
+      "PCG_SecA",
+      "PM",
+      "Rev_Mgmt",
+      "SRC"
+    ]
+  },
+  "2511388": {
+    "name": "Nipun Yadav",
+    "sections": [
+      "B2B_M_SecB",
+      "CV",
+      "DSDT_SecC",
+      "INV_SecB",
+      "MG_SecB",
+      "MoB",
+      "MSAIC_SecA"
+    ]
+  },
+  "2511389": {
+    "name": "Saksham Jhamb",
+    "sections": [
+      "B2B_M_SecB",
+      "CV",
+      "FSA_SecB",
+      "INV_SecB",
+      "MG_SecB",
+      "MoB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511390": {
+    "name": "Kratika Agarwal",
+    "sections": [
+      "DSDT_SecB",
+      "FD_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MSAIC_SecB",
+      "PA_SecB",
+      "PEVC_SecB",
+      "PSM_SecA"
+    ]
+  },
+  "2511391": {
+    "name": "Kinshuk Khandelwal",
+    "sections": [
+      "BM_SecA",
+      "DSDT_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "MSAIC_SecA",
+      "PEVC_SecA",
+      "SCM_SecA",
+      "SRC"
+    ]
+  },
+  "2511392": {
+    "name": "Nagulapalli Sankeerti",
+    "sections": [
+      "CV",
+      "FD_SecB",
+      "FSA_SecB",
+      "INV_SecB",
+      "MG_SecB",
+      "MSAIC_SecA",
+      "PA_SecB",
+      "PEVC_SecB"
+    ]
+  },
+  "2511393": {
+    "name": "Mihir Kulkarni",
+    "sections": [
+      "BM_SecB",
+      "CV",
+      "FD_SecB",
+      "MG_SecA",
+      "MoB",
+      "MSAIC_SecB",
+      "PEVC_SecA",
+      "PSM_SecB"
+    ]
+  },
+  "2511394": {
+    "name": "Sarthak Bhardwaj",
+    "sections": [
+      "CV",
+      "FD_SecB",
+      "FSA_SecA",
+      "INV_SecA",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PEVC_SecA",
+      "Rev_Mgmt"
+    ]
+  },
+  "2511395": {
+    "name": "Bagul Ankita Sunil",
+    "sections": [
+      "BM_SecB",
+      "CB_SecB",
+      "DSDT_SecC",
+      "HRM_IR",
+      "PCG_SecB",
+      "SDM",
+      "SRC"
+    ]
+  },
+  "2511396": {
+    "name": "Amarthya Singampalli",
+    "sections": [
+      "B2B_M_SecA",
+      "FD_SecA",
+      "FSA_SecA",
+      "INV_SecA",
+      "MSAIC_SecB",
+      "PA_SecA",
+      "PEVC_SecA",
+      "SCM_SecB"
+    ]
+  },
+  "2511397": {
+    "name": "Sreeraj S Anand",
+    "sections": [
+      "B2B_M_SecC",
+      "BM_SecA",
+      "FSA_SecB",
+      "INV_SecA",
+      "MSAIC_SecB",
+      "PCG_SecB",
+      "PEVC_SecB",
+      "PSM_SecA"
+    ]
+  },
+  "2511398": {
+    "name": "Deepanshu Parihar",
+    "sections": [
+      "CB_SecB",
+      "FD_SecB",
+      "FSA_SecA",
+      "PCG_SecA",
+      "PEVC_SecA",
+      "PM",
+      "SCM_SecA",
+      "SRC"
+    ]
+  }
+}

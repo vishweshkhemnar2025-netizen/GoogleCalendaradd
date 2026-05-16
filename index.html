@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Term IV Class Schedule &middot; Google Calendar</title>
+<style>
+  :root{
+    --maroon:#7A1F2B;
+    --maroon-dk:#5E1721;
+    --ink:#1c1c1c;
+    --muted:#6a6a6a;
+    --line:#e3ddd8;
+    --bg:#f6f4f2;
+    --card:#ffffff;
+    --ok:#1f7a3d;
+    --radius:12px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);
+    -webkit-text-size-adjust:100%}
+  body{line-height:1.5;padding:20px 16px 56px;display:flex;justify-content:center}
+  .wrap{width:100%;max-width:560px}
+  header{margin-bottom:22px}
+  h1{font-size:1.32rem;line-height:1.3;margin-bottom:6px}
+  .sub{color:var(--muted);font-size:.95rem}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    padding:18px 16px;margin-bottom:16px}
+  label{display:block;font-size:.9rem;font-weight:bold;margin-bottom:7px}
+  input[type=text]{width:100%;font:inherit;padding:13px 14px;border:1px solid var(--line);
+    border-radius:10px;background:#fff;color:var(--ink)}
+  input[type=text]:focus{outline:2px solid var(--maroon);outline-offset:0;border-color:var(--maroon)}
+  .search-box{position:relative}
+  .results{position:absolute;left:0;right:0;top:calc(100% + 6px);background:#fff;
+    border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 28px rgba(0,0,0,.10);
+    max-height:300px;overflow-y:auto;z-index:20;display:none}
+  .results.show{display:block}
+  .result{padding:11px 14px;cursor:pointer;border-bottom:1px solid #f0ece8;
+    display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+  .result:last-child{border-bottom:0}
+  .result:hover,.result.active{background:#faf3f0}
+  .result .nm{font-weight:bold}
+  .result .meta{color:var(--muted);font-size:.82rem;white-space:nowrap}
+  .empty{padding:14px;color:var(--muted);font-size:.9rem}
+  .greet{font-size:1.1rem;font-weight:bold;margin-bottom:2px}
+  .greet small{display:block;font-weight:normal;color:var(--muted);font-size:.82rem;margin-top:3px}
+  .courses{list-style:none;margin:14px 0 4px}
+  .courses li{display:flex;gap:10px;padding:9px 0;border-bottom:1px solid #f0ece8;
+    font-size:.97rem;align-items:flex-start}
+  .courses li:last-child{border-bottom:0}
+  .courses li .dash{color:var(--muted)}
+  .courses li.done{color:var(--muted)}
+  .courses li.done .nm{text-decoration:line-through}
+  .courses li.cur{font-weight:bold}
+  .tick{width:1.1em;flex:0 0 auto;text-align:center}
+  .tick.on{color:var(--ok)}
+  .btn{display:block;width:100%;font:inherit;font-weight:bold;font-size:1rem;
+    padding:15px;border:0;border-radius:10px;background:var(--maroon);color:#fff;
+    cursor:pointer;text-align:center;text-decoration:none}
+  .btn:hover{background:var(--maroon-dk)}
+  .btn:disabled{opacity:.55;cursor:default}
+  .btn.sec{background:#fff;color:var(--maroon);border:1.5px solid var(--maroon)}
+  .btn.sec:hover{background:#faf3f0}
+  .btn.sm{width:auto;padding:9px 16px;font-size:.88rem}
+  .progress{background:#faf3f0;border:1px solid #ecdcd8;border-radius:10px;
+    padding:13px 14px;font-size:.92rem;margin:14px 0}
+  .progress b{color:var(--maroon-dk)}
+  .note{font-size:.82rem;color:var(--muted);margin-top:10px}
+  .tip{font-size:.82rem;background:#fffaf0;border:1px solid #f0e2c4;color:#7a5a17;
+    border-radius:8px;padding:10px 12px;margin-top:12px}
+  .success{background:#eef7f0;border:1px solid #cfe6d6;color:var(--ok);
+    border-radius:10px;padding:16px;font-weight:bold;text-align:center}
+  .success span{display:block;font-weight:normal;color:#2f6b44;font-size:.88rem;margin-top:6px}
+  .hidden{display:none !important}
+  details{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    margin-bottom:10px;overflow:hidden}
+  summary{padding:14px 16px;cursor:pointer;font-weight:bold;font-size:.95rem;
+    list-style:none;display:flex;justify-content:space-between;align-items:center;gap:10px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";color:var(--maroon);font-size:1.25rem;line-height:1}
+  details[open] summary::after{content:"\2013"}
+  .det-body{padding:0 16px 16px;font-size:.9rem;color:#333}
+  .det-body p{margin-bottom:9px}
+  .det-body ul{list-style:none;margin:6px 0 9px}
+  .det-body ul li{padding:3px 0;display:flex;gap:8px}
+  .det-body ul li::before{content:"\2013";color:var(--muted)}
+  .browse-row{display:flex;justify-content:space-between;align-items:center;gap:12px;
+    padding:10px 0;border-bottom:1px solid #f0ece8}
+  .browse-row:last-child{border-bottom:0}
+  .browse-row .bn{font-size:.9rem}
+  .browse-list{max-height:340px;overflow-y:auto;margin-top:10px}
+  .foot{color:var(--muted);font-size:.8rem;text-align:center;margin-top:18px;line-height:1.5}
+  a{color:var(--maroon)}
+  @media (min-width:600px){ h1{font-size:1.5rem} body{padding-top:36px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Add your Term IV class schedule to Google Calendar</h1>
+    <p class="sub">Find your name, confirm your courses, then add them all in a few clicks.</p>
+  </header>
+
+  <div class="tip" style="margin:0 0 16px">
+    <b>Note:</b> These calendars are not dynamic in nature and will not update in
+    case of rescheduling of classes by MBASecondYear in the excel timetable
+    provided to you.
+  </div>
+
+  <!-- loading / error -->
+  <div id="loading" class="card">Loading student list&hellip;</div>
+  <div id="loaderr" class="card hidden" style="color:#a3251f">
+    Could not load the data files. If you opened this file directly, it must be served
+    over http (GitHub Pages does this automatically).
+  </div>
+
+  <!-- LANDING: search -->
+  <div id="search-card" class="card hidden">
+    <label for="q">Find yourself</label>
+    <div class="search-box">
+      <input id="q" type="text" autocomplete="off" autocapitalize="off" spellcheck="false"
+             placeholder="Enter your roll number or name" />
+      <div id="results" class="results" role="listbox"></div>
+    </div>
+    <p class="note">Type a few letters of your name or your roll number.</p>
+  </div>
+
+  <!-- SELECTED: confirm + add -->
+  <div id="student-card" class="card hidden">
+    <div class="greet" id="greet"></div>
+    <ul class="courses" id="courses"></ul>
+
+    <div id="preflow">
+      <button class="btn" id="addAll">Add all to Google Calendar</button>
+      <div class="tip">On a phone? Make sure you are <b>signed in to Google Calendar</b>
+        in this browser first &mdash; otherwise the &ldquo;Add&rdquo; screen may not appear.</div>
+      <p class="note">You will see Google&rsquo;s confirmation for each calendar. Tap
+        <b>Add</b> there, then come straight back to this tab &mdash; the next one opens by itself.</p>
+    </div>
+
+    <div id="flow" class="hidden">
+      <div class="progress" id="progressMsg"></div>
+      <button class="btn" id="nextBtn">Open next course &rarr;</button>
+      <p class="note">Tab didn&rsquo;t switch back on its own? Use this button after you tap
+        <b>Add</b> in the Google tab.</p>
+    </div>
+
+    <div id="doneBox" class="success hidden"></div>
+
+    <button class="btn sec sm" id="changeStudent" style="margin-top:14px">&larr; Not you? Search again</button>
+  </div>
+
+  <!-- FOOTER -->
+  <details>
+    <summary>How does this work?</summary>
+    <div class="det-body">
+      <p>You are <b>subscribing</b> to the ACAD committee&rsquo;s Google Calendars
+        &mdash; not importing a one-time file.</p>
+      <ul>
+        <li>Every class for your section is already on these calendars.</li>
+        <li>This is a one-time setup for the whole term.</li>
+        <li>These calendars are <b>not dynamic</b> &mdash; if MBASecondYear
+          reschedules classes in the Excel timetable, that change will <b>not</b>
+          appear here automatically.</li>
+      </ul>
+    </div>
+  </details>
+
+  <details>
+    <summary>Add another calendar (audits, friends, etc.)</summary>
+    <div class="det-body">
+      <p>Adding a calendar that isn&rsquo;t in your enrolment? Pick it here.</p>
+      <input id="bq" type="text" autocomplete="off" placeholder="Filter all 38 calendars&hellip;"
+             style="margin:4px 0 4px"/>
+      <div class="browse-list" id="browseList"></div>
+    </div>
+  </details>
+
+  <p class="foot">
+    This page runs entirely in your browser. Nothing is sent to a server.
+  </p>
+
+</div>
+
+<script>
+"use strict";
+
+/* The 38 calendars are Google Workspace group calendars (c_..@group.calendar.google.com).
+   These subscribe reliably when the calendar id is base64-encoded into cid=.
+   Set CID_BASE64=false to fall back to the raw id form if ever needed. */
+var CID_BASE64 = true;
+function subscribeUrl(calId){
+  var cid = CID_BASE64 ? btoa(calId).replace(/=+$/,"") : calId;
+  return "https://calendar.google.com/calendar/u/0/r?cid=" + cid;
+}
+
+var CAL = {}, STUDENTS = [];
+var el = function(id){ return document.getElementById(id); };
+
+Promise.all([
+  fetch("calendars.json").then(function(r){ if(!r.ok) throw 0; return r.json(); }),
+  fetch("enrollments.json").then(function(r){ if(!r.ok) throw 0; return r.json(); })
+]).then(function(res){
+  CAL = res[0];
+  var enr = res[1];
+  STUDENTS = Object.keys(enr).map(function(roll){
+    var s = enr[roll];
+    return { roll:roll, name:s.name, sections:s.sections,
+             hay:(s.name+" "+roll).toLowerCase() };
+  });
+  el("loading").classList.add("hidden");
+  el("search-card").classList.remove("hidden");
+  buildBrowseList();
+  el("q").focus();
+}).catch(function(){
+  el("loading").classList.add("hidden");
+  el("loaderr").classList.remove("hidden");
+});
+
+/* ---------- search / suggest-as-you-type ---------- */
+var qIn = function(){ return el("q"); };
+var resBox = function(){ return el("results"); };
+var matches = [], activeIdx = -1;
+
+function runSearch(){
+  var v = qIn().value.trim().toLowerCase();
+  var box = resBox();
+  if(!v){ box.classList.remove("show"); box.innerHTML=""; matches=[]; return; }
+  var terms = v.split(/\s+/);
+  matches = STUDENTS.filter(function(s){
+    return terms.every(function(t){ return s.hay.indexOf(t) !== -1; });
+  }).sort(function(a,b){ return a.name.localeCompare(b.name); }).slice(0,30);
+  activeIdx = -1;
+  if(matches.length === 0){
+    box.innerHTML = '<div class="empty">No match found. Check your spelling or try your roll number.</div>';
+  } else {
+    box.innerHTML = matches.map(function(s,i){
+      return '<div class="result" role="option" data-i="'+i+'">'+
+               '<span class="nm">'+esc(s.name)+'</span>'+
+               '<span class="meta">'+esc(s.roll)+' &middot; '+s.sections.length+' courses</span>'+
+             '</div>';
+    }).join("");
+  }
+  box.classList.add("show");
+}
+function esc(s){ return String(s).replace(/[&<>"]/g,function(c){
+  return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+
+qIn().addEventListener("input", runSearch);
+qIn().addEventListener("focus", function(){ if(qIn().value.trim()) runSearch(); });
+resBox().addEventListener("click", function(e){
+  var r = e.target.closest(".result");
+  if(r) selectStudent(matches[+r.dataset.i]);
+});
+qIn().addEventListener("keydown", function(e){
+  if(!resBox().classList.contains("show") || matches.length===0) return;
+  if(e.key==="ArrowDown"){ e.preventDefault(); activeIdx=Math.min(activeIdx+1,matches.length-1); paintActive(); }
+  else if(e.key==="ArrowUp"){ e.preventDefault(); activeIdx=Math.max(activeIdx-1,0); paintActive(); }
+  else if(e.key==="Enter"){ e.preventDefault(); selectStudent(matches[activeIdx<0?0:activeIdx]); }
+  else if(e.key==="Escape"){ resBox().classList.remove("show"); }
+});
+function paintActive(){
+  var nodes = resBox().querySelectorAll(".result");
+  nodes.forEach(function(n,i){ n.classList.toggle("active", i===activeIdx); });
+  if(nodes[activeIdx]) nodes[activeIdx].scrollIntoView({block:"nearest"});
+}
+document.addEventListener("click", function(e){
+  if(!e.target.closest(".search-box")) resBox().classList.remove("show");
+});
+
+/* ---------- selected student ---------- */
+var current = null;          // { name, roll, sections:[key] }
+var step = -1;               // index of calendar currently being added
+var awaiting = false;        // waiting for the user to come back from a Google tab
+var lastOpen = 0;            // timestamp guard so the open() itself doesn't auto-advance
+
+function firstName(n){ return (n||"").trim().split(/\s+/)[0] || n; }
+
+function selectStudent(s){
+  if(!s) return;
+  current = s; step = -1; awaiting = false;
+  resBox().classList.remove("show");
+  el("search-card").classList.add("hidden");
+
+  el("greet").innerHTML = "Hi " + esc(firstName(s.name)) + " &mdash; here "+
+    (s.sections.length===1?"is your 1 course":"are your "+s.sections.length+" courses")+
+    " for Term IV:" + "<small>Roll "+esc(s.roll)+"</small>";
+
+  el("courses").innerHTML = s.sections.map(function(k,i){
+    return '<li id="c'+i+'"><span class="tick" id="t'+i+'"></span>'+
+           '<span class="dash">&ndash;</span>'+
+           '<span class="nm">'+esc(CAL[k] ? CAL[k].name : k)+'</span></li>';
+  }).join("");
+
+  el("preflow").classList.remove("hidden");
+  el("flow").classList.add("hidden");
+  el("doneBox").classList.add("hidden");
+  el("addAll").disabled = false;
+  el("student-card").classList.remove("hidden");
+  window.scrollTo(0,0);
+}
+
+el("changeStudent").addEventListener("click", function(){
+  current=null; step=-1; awaiting=false;
+  el("student-card").classList.add("hidden");
+  el("search-card").classList.remove("hidden");
+  qIn().value=""; resBox().innerHTML=""; qIn().focus();
+});
+
+/* ---------- guided sequential add ---------- */
+function openStep(i){
+  var k = current.sections[i];
+  var cal = CAL[k];
+  if(!cal || !cal.calId){           // safety: missing id -> skip forward
+    markDone(i); advanceAfter(i); return null;
+  }
+  lastOpen = Date.now();
+  awaiting = true;
+  var w = window.open(subscribeUrl(cal.calId), "_blank");
+  return w;
+}
+
+function renderProgress(){
+  var n = current.sections.length;
+  var k = current.sections[step];
+  var nm = CAL[k] ? CAL[k].name : k;
+  el("progressMsg").innerHTML = "Adding <b>"+(step+1)+" of "+n+"</b> &mdash; "+
+    esc(nm)+".<br>Tap <b>Add</b> in the Google tab, then come back here.";
+  el("nextBtn").textContent = (step+1 < n)
+    ? "I added it — open next →"
+    : "I added it — finish";
+  document.querySelectorAll("#courses li").forEach(function(li){ li.classList.remove("cur"); });
+  var cur = el("c"+step); if(cur) cur.classList.add("cur");
+}
+
+function markDone(i){
+  var li = el("c"+i), t = el("t"+i);
+  if(li){ li.classList.add("done"); li.classList.remove("cur"); }
+  if(t){ t.textContent="✓"; t.classList.add("on"); }
+}
+
+function startFlow(){
+  step = 0;
+  el("addAll").disabled = true;
+  el("preflow").classList.add("hidden");
+  el("flow").classList.remove("hidden");
+  el("doneBox").classList.add("hidden");
+  renderProgress();
+  openStep(0);
+}
+
+function advance(){
+  // called when the user returns from a Google tab (focus) or taps the button
+  if(step < 0) return;
+  markDone(step);
+  var n = current.sections.length;
+  if(step + 1 >= n){ finish(); return; }
+  step += 1;
+  renderProgress();
+  var w = openStep(step);
+  if(!w){
+    // popup blocked on auto-advance: the button below is a reliable manual fallback
+    el("progressMsg").innerHTML += "<br><br>Your browser blocked the pop-up. "+
+      "Use the button below to open the next calendar.";
+  }
+}
+function advanceAfter(i){ step=i; advance(); }
+
+function finish(){
+  awaiting = false;
+  var n = current.sections.length;
+  el("flow").classList.add("hidden");
+  el("doneBox").classList.remove("hidden");
+  el("doneBox").innerHTML = "All "+n+" calendars added ✓"+
+    "<span>Your Term IV classes are now on Google Calendar. These calendars are "+
+    "not dynamic &mdash; reschedules by MBASecondYear in the Excel timetable "+
+    "will not update here automatically.</span>";
+  document.querySelectorAll("#courses li").forEach(function(li){ li.classList.remove("cur"); });
+}
+
+el("addAll").addEventListener("click", startFlow);
+el("nextBtn").addEventListener("click", function(){
+  if(step < 0) return;
+  // explicit user action: open() here is always allowed
+  if(awaiting){ advance(); }
+});
+
+/* auto-advance when the student returns to this tab */
+function onReturn(){
+  if(!current || step < 0 || !awaiting) return;
+  if(Date.now() - lastOpen < 1200) return;   // ignore the blur/focus from open() itself
+  if(document.visibilityState === "hidden") return;
+  advance();
+}
+window.addEventListener("focus", onReturn);
+document.addEventListener("visibilitychange", function(){
+  if(document.visibilityState === "visible") onReturn();
+});
+
+/* ---------- browse all 38 ---------- */
+function buildBrowseList(){
+  var keys = Object.keys(CAL).sort(function(a,b){
+    return CAL[a].name.localeCompare(CAL[b].name); });
+  var html = keys.map(function(k){
+    return '<div class="browse-row" data-name="'+esc(CAL[k].name.toLowerCase())+'">'+
+             '<span class="bn">'+esc(CAL[k].name)+'</span>'+
+             '<button class="btn sec sm" data-k="'+k+'">Add</button>'+
+           '</div>';
+  }).join("");
+  el("browseList").innerHTML = html;
+  el("browseList").addEventListener("click", function(e){
+    var b = e.target.closest("button[data-k]");
+    if(!b) return;
+    var cal = CAL[b.dataset.k];
+    if(cal && cal.calId) window.open(subscribeUrl(cal.calId), "_blank");
+  });
+  el("bq").addEventListener("input", function(){
+    var v = el("bq").value.trim().toLowerCase();
+    el("browseList").querySelectorAll(".browse-row").forEach(function(row){
+      row.style.display = (!v || row.dataset.name.indexOf(v)!==-1) ? "" : "none";
+    });
+  });
+}
+</script>
+</body>
+</html>
