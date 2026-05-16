@@ -6,42 +6,25 @@
 <title>Term IV Class Schedule &middot; Google Calendar</title>
 <style>
   :root{
-    --maroon:#7A1F2B;
-    --maroon-dk:#5E1721;
-    --ink:#1c1c1c;
-    --muted:#6a6a6a;
-    --line:#e3ddd8;
-    --bg:#f6f4f2;
-    --card:#ffffff;
-    --ok:#1f7a3d;
-    --radius:12px;
+    --maroon:#7A1F2B; --maroon-dk:#5E1721; --ink:#1c1c1c; --muted:#6a6a6a;
+    --line:#e3ddd8; --bg:#f6f4f2; --card:#ffffff; --ok:#1f7a3d; --radius:12px;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);
     -webkit-text-size-adjust:100%}
   body{line-height:1.5;padding:20px 16px 56px;display:flex;justify-content:center}
   .wrap{width:100%;max-width:560px}
-  header{margin-bottom:22px}
+  header{margin-bottom:18px}
   h1{font-size:1.32rem;line-height:1.3;margin-bottom:6px}
   .sub{color:var(--muted);font-size:.95rem}
   .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
     padding:18px 16px;margin-bottom:16px}
-  label{display:block;font-size:.9rem;font-weight:bold;margin-bottom:7px}
-  input[type=text]{width:100%;font:inherit;padding:13px 14px;border:1px solid var(--line);
+  label{display:block;font-size:.9rem;font-weight:bold;margin:0 0 7px}
+  input{width:100%;font:inherit;padding:13px 14px;border:1px solid var(--line);
     border-radius:10px;background:#fff;color:var(--ink)}
-  input[type=text]:focus{outline:2px solid var(--maroon);outline-offset:0;border-color:var(--maroon)}
-  .search-box{position:relative}
-  .results{position:absolute;left:0;right:0;top:calc(100% + 6px);background:#fff;
-    border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 28px rgba(0,0,0,.10);
-    max-height:300px;overflow-y:auto;z-index:20;display:none}
-  .results.show{display:block}
-  .result{padding:11px 14px;cursor:pointer;border-bottom:1px solid #f0ece8;
-    display:flex;justify-content:space-between;gap:10px;align-items:baseline}
-  .result:last-child{border-bottom:0}
-  .result:hover,.result.active{background:#faf3f0}
-  .result .nm{font-weight:bold}
-  .result .meta{color:var(--muted);font-size:.82rem;white-space:nowrap}
-  .empty{padding:14px;color:var(--muted);font-size:.9rem}
+  input:focus{outline:2px solid var(--maroon);outline-offset:0;border-color:var(--maroon)}
+  .field{margin-bottom:14px}
+  .err{color:#a3251f;font-size:.88rem;margin:4px 0 0;min-height:1.1em}
   .greet{font-size:1.1rem;font-weight:bold;margin-bottom:2px}
   .greet small{display:block;font-weight:normal;color:var(--muted);font-size:.82rem;margin-top:3px}
   .courses{list-style:none;margin:14px 0 4px}
@@ -68,6 +51,8 @@
   .note{font-size:.82rem;color:var(--muted);margin-top:10px}
   .tip{font-size:.82rem;background:#fffaf0;border:1px solid #f0e2c4;color:#7a5a17;
     border-radius:8px;padding:10px 12px;margin-top:12px}
+  .laptop{font-size:.86rem;background:#eef3fb;border:1px solid #cdddf2;color:#274a73;
+    border-radius:8px;padding:11px 13px;margin:0 0 16px}
   .success{background:#eef7f0;border:1px solid #cfe6d6;color:var(--ok);
     border-radius:10px;padding:16px;font-weight:bold;text-align:center}
   .success span{display:block;font-weight:normal;color:#2f6b44;font-size:.88rem;margin-top:6px}
@@ -99,8 +84,14 @@
 
   <header>
     <h1>Add your Term IV class schedule to Google Calendar</h1>
-    <p class="sub">Find your name, confirm your courses, then add them all in a few clicks.</p>
+    <p class="sub">Log in with your roll number and PIN to add your own courses.</p>
   </header>
+
+  <div class="laptop">
+    <b>Please use a laptop or desktop.</b> Google requires a separate confirmation
+    per calendar; on a phone each one opens a new browser tab and the flow is
+    clumsy. On a computer it takes under a minute.
+  </div>
 
   <div class="tip" style="margin:0 0 16px">
     <b>Note:</b> These calendars are not dynamic in nature and will not update in
@@ -108,22 +99,32 @@
     provided to you.
   </div>
 
-  <!-- loading / error -->
-  <div id="loading" class="card">Loading student list&hellip;</div>
+  <div id="loading" class="card">Loading&hellip;</div>
   <div id="loaderr" class="card hidden" style="color:#a3251f">
-    Could not load the data files. If you opened this file directly, it must be served
-    over http (GitHub Pages does this automatically).
+    Could not load the data. This page must be opened over https (GitHub Pages)
+    or http://localhost &mdash; logging in needs the browser&rsquo;s crypto, which
+    is disabled on plain file:// pages.
   </div>
 
-  <!-- LANDING: search -->
-  <div id="search-card" class="card hidden">
-    <label for="q">Find yourself</label>
-    <div class="search-box">
-      <input id="q" type="text" autocomplete="off" autocapitalize="off" spellcheck="false"
-             placeholder="Enter your roll number or name" />
-      <div id="results" class="results" role="listbox"></div>
-    </div>
-    <p class="note">Type a few letters of your name or your roll number.</p>
+  <!-- LOGIN -->
+  <div id="login-card" class="card hidden">
+    <form id="loginForm" autocomplete="off">
+      <div class="field">
+        <label for="roll">Roll number</label>
+        <input id="roll" type="text" inputmode="numeric" autocomplete="off"
+               autocapitalize="off" spellcheck="false" placeholder="e.g. 2511002" />
+      </div>
+      <div class="field">
+        <label for="pin">PIN</label>
+        <input id="pin" type="password" inputmode="numeric" autocomplete="off"
+               placeholder="Your 4-digit PIN" />
+      </div>
+      <button class="btn" id="loginBtn" type="submit">Log in</button>
+      <p class="err" id="loginErr"></p>
+      <p class="note">This is the same PIN you used for the SR&nbsp;Term&nbsp;IV
+        elections. Your data is encrypted &mdash; only your own roll&nbsp;+&nbsp;PIN
+        can unlock your courses. Lost your PIN? Contact your CR / ACAD.</p>
+    </form>
   </div>
 
   <!-- SELECTED: confirm + add -->
@@ -133,22 +134,22 @@
 
     <div id="preflow">
       <button class="btn" id="addAll">Add all to Google Calendar</button>
-      <div class="tip">On a phone? Make sure you are <b>signed in to Google Calendar</b>
-        in this browser first &mdash; otherwise the &ldquo;Add&rdquo; screen may not appear.</div>
-      <p class="note">You will see Google&rsquo;s confirmation for each calendar. Tap
-        <b>Add</b> there, then come straight back to this tab &mdash; the next one opens by itself.</p>
+      <div class="tip">If Google asks you to sign in, sign in with your IIMU
+        account first, then come back and start again.</div>
+      <p class="note">For each course: tap <b>Add</b> in the Google tab, come back
+        to this tab, then click the button here to open the next one.</p>
     </div>
 
     <div id="flow" class="hidden">
       <div class="progress" id="progressMsg"></div>
       <button class="btn" id="nextBtn">Open next course &rarr;</button>
-      <p class="note">Tab didn&rsquo;t switch back on its own? Use this button after you tap
-        <b>Add</b> in the Google tab.</p>
+      <p class="note">After you click <b>Add</b> in the Google tab and return here,
+        click the button above to open the next course.</p>
     </div>
 
     <div id="doneBox" class="success hidden"></div>
 
-    <button class="btn sec sm" id="changeStudent" style="margin-top:14px">&larr; Not you? Search again</button>
+    <button class="btn sec sm" id="logout" style="margin-top:14px">&larr; Log out</button>
   </div>
 
   <!-- FOOTER -->
@@ -172,13 +173,15 @@
     <div class="det-body">
       <p>Adding a calendar that isn&rsquo;t in your enrolment? Pick it here.</p>
       <input id="bq" type="text" autocomplete="off" placeholder="Filter all 38 calendars&hellip;"
-             style="margin:4px 0 4px"/>
+             style="margin:4px 0"/>
       <div class="browse-list" id="browseList"></div>
     </div>
   </details>
 
   <p class="foot">
-    This page runs entirely in your browser. Nothing is sent to a server.
+    This page runs entirely in your browser. Nothing is sent to a server, and
+    each student&rsquo;s courses are encrypted &mdash; only your own roll number
+    and PIN can decrypt them.
   </p>
 
 </div>
@@ -186,111 +189,126 @@
 <script>
 "use strict";
 
-/* The 38 calendars are Google Workspace group calendars (c_..@group.calendar.google.com).
-   These subscribe reliably when the calendar id is base64-encoded into cid=.
-   Set CID_BASE64=false to fall back to the raw id form if ever needed. */
+/* ---- subscribe link --------------------------------------------------------
+   Workspace group calendars (c_..@group.calendar.google.com) subscribe
+   reliably when the calendar id is base64-encoded into cid=. Flip to false
+   for the raw form if ever needed. */
 var CID_BASE64 = true;
 function subscribeUrl(calId){
   var cid = CID_BASE64 ? btoa(calId).replace(/=+$/,"") : calId;
   return "https://calendar.google.com/calendar/u/0/r?cid=" + cid;
 }
 
-var CAL = {}, STUDENTS = [];
 var el = function(id){ return document.getElementById(id); };
+var CAL = {}, BUNDLE = null, LOOKUP_SALT = null;
 
-Promise.all([
-  fetch("calendars.json").then(function(r){ if(!r.ok) throw 0; return r.json(); }),
-  fetch("enrollments.json").then(function(r){ if(!r.ok) throw 0; return r.json(); })
-]).then(function(res){
-  CAL = res[0];
-  var enr = res[1];
-  STUDENTS = Object.keys(enr).map(function(roll){
-    var s = enr[roll];
-    return { roll:roll, name:s.name, sections:s.sections,
-             hay:(s.name+" "+roll).toLowerCase() };
-  });
-  el("loading").classList.add("hidden");
-  el("search-card").classList.remove("hidden");
-  buildBrowseList();
-  el("q").focus();
-}).catch(function(){
+/* ---- byte helpers ---- */
+function b64ToBytes(s){ var bin=atob(s), u=new Uint8Array(bin.length);
+  for(var i=0;i<bin.length;i++) u[i]=bin.charCodeAt(i); return u; }
+function concatBytes(a,b){ var u=new Uint8Array(a.length+b.length);
+  u.set(a,0); u.set(b,a.length); return u; }
+function toHex(buf){ return Array.prototype.map.call(new Uint8Array(buf),
+  function(x){ return x.toString(16).padStart(2,"0"); }).join(""); }
+var TE = new TextEncoder();
+
+/* ---- load data ---- */
+if(!window.crypto || !crypto.subtle){
   el("loading").classList.add("hidden");
   el("loaderr").classList.remove("hidden");
-});
+} else {
+  Promise.all([
+    fetch("calendars.json").then(function(r){ if(!r.ok) throw 0; return r.json(); }),
+    fetch("students.enc.json").then(function(r){ if(!r.ok) throw 0; return r.json(); })
+  ]).then(function(res){
+    CAL = res[0];
+    BUNDLE = res[1];
+    LOOKUP_SALT = b64ToBytes(BUNDLE.lookupSalt);
+    el("loading").classList.add("hidden");
+    el("login-card").classList.remove("hidden");
+    buildBrowseList();
+    el("roll").focus();
+  }).catch(function(){
+    el("loading").classList.add("hidden");
+    el("loaderr").classList.remove("hidden");
+  });
+}
 
-/* ---------- search / suggest-as-you-type ---------- */
-var qIn = function(){ return el("q"); };
-var resBox = function(){ return el("results"); };
-var matches = [], activeIdx = -1;
+/* ---- login / decrypt ---- */
+function setErr(m){ el("loginErr").textContent = m || ""; }
 
-function runSearch(){
-  var v = qIn().value.trim().toLowerCase();
-  var box = resBox();
-  if(!v){ box.classList.remove("show"); box.innerHTML=""; matches=[]; return; }
-  var terms = v.split(/\s+/);
-  matches = STUDENTS.filter(function(s){
-    return terms.every(function(t){ return s.hay.indexOf(t) !== -1; });
-  }).sort(function(a,b){ return a.name.localeCompare(b.name); }).slice(0,30);
-  activeIdx = -1;
-  if(matches.length === 0){
-    box.innerHTML = '<div class="empty">No match found. Check your spelling or try your roll number.</div>';
-  } else {
-    box.innerHTML = matches.map(function(s,i){
-      return '<div class="result" role="option" data-i="'+i+'">'+
-               '<span class="nm">'+esc(s.name)+'</span>'+
-               '<span class="meta">'+esc(s.roll)+' &middot; '+s.sections.length+' courses</span>'+
-             '</div>';
-    }).join("");
+async function decryptRecord(roll, pin){
+  var ridBuf = await crypto.subtle.digest("SHA-256",
+                  concatBytes(LOOKUP_SALT, TE.encode(roll)));
+  var rec = BUNDLE.records[toHex(ridBuf)];
+  if(!rec) return { error: "notfound" };
+
+  var salt = b64ToBytes(rec.s), iv = b64ToBytes(rec.i),
+      ct   = b64ToBytes(rec.c), tag = b64ToBytes(rec.t);
+
+  var base = await crypto.subtle.importKey("raw",
+               TE.encode(roll + ":" + pin), {name:"PBKDF2"}, false, ["deriveBits"]);
+  var bits = new Uint8Array(await crypto.subtle.deriveBits(
+               {name:"PBKDF2", salt:salt, iterations:BUNDLE.kdf.iters, hash:"SHA-256"},
+               base, BUNDLE.kdf.dkLen * 8));
+  var kEnc = bits.slice(0,32), kMac = bits.slice(32,64);
+
+  var hk = await crypto.subtle.importKey("raw", kMac,
+             {name:"HMAC", hash:"SHA-256"}, false, ["verify"]);
+  var ok = await crypto.subtle.verify("HMAC", hk, tag, concatBytes(iv, ct));
+  if(!ok) return { error: "badpin" };
+
+  var ck = await crypto.subtle.importKey("raw", kEnc,
+             {name:"AES-CTR"}, false, ["decrypt"]);
+  var pt = await crypto.subtle.decrypt({name:"AES-CTR", counter:iv, length:128},
+             ck, ct);
+  try { return JSON.parse(new TextDecoder().decode(pt)); }
+  catch(e){ return { error: "badpin" }; }
+}
+
+el("loginForm").addEventListener("submit", async function(e){
+  e.preventDefault();
+  setErr("");
+  var roll = el("roll").value.trim();
+  var pin  = el("pin").value.trim();
+  if(!roll || !pin){ setErr("Enter your roll number and PIN."); return; }
+  el("loginBtn").disabled = true;
+  el("loginBtn").textContent = "Checking…";
+  try{
+    var r = await decryptRecord(roll, pin);
+    if(r.error === "notfound"){ setErr("No student found for that roll number."); }
+    else if(r.error === "badpin"){ setErr("Incorrect roll number or PIN."); }
+    else { showStudent(r); }
+  }catch(err){
+    setErr("Something went wrong. Try again.");
+  }finally{
+    el("loginBtn").disabled = false;
+    el("loginBtn").textContent = "Log in";
   }
-  box.classList.add("show");
-}
-function esc(s){ return String(s).replace(/[&<>"]/g,function(c){
-  return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
-
-qIn().addEventListener("input", runSearch);
-qIn().addEventListener("focus", function(){ if(qIn().value.trim()) runSearch(); });
-resBox().addEventListener("click", function(e){
-  var r = e.target.closest(".result");
-  if(r) selectStudent(matches[+r.dataset.i]);
-});
-qIn().addEventListener("keydown", function(e){
-  if(!resBox().classList.contains("show") || matches.length===0) return;
-  if(e.key==="ArrowDown"){ e.preventDefault(); activeIdx=Math.min(activeIdx+1,matches.length-1); paintActive(); }
-  else if(e.key==="ArrowUp"){ e.preventDefault(); activeIdx=Math.max(activeIdx-1,0); paintActive(); }
-  else if(e.key==="Enter"){ e.preventDefault(); selectStudent(matches[activeIdx<0?0:activeIdx]); }
-  else if(e.key==="Escape"){ resBox().classList.remove("show"); }
-});
-function paintActive(){
-  var nodes = resBox().querySelectorAll(".result");
-  nodes.forEach(function(n,i){ n.classList.toggle("active", i===activeIdx); });
-  if(nodes[activeIdx]) nodes[activeIdx].scrollIntoView({block:"nearest"});
-}
-document.addEventListener("click", function(e){
-  if(!e.target.closest(".search-box")) resBox().classList.remove("show");
 });
 
-/* ---------- selected student ---------- */
+/* ---- selected student -----------------------------------------------------
+   Mobile browsers only allow window.open() during a real tap, so every
+   calendar is opened from a button click - never from the focus/visibility
+   "came back" event (that would just make an about:blank tab on phones). */
 var current = null;          // { name, roll, sections:[key] }
-var step = -1;               // index of calendar currently being added
-var awaiting = false;        // waiting for the user to come back from a Google tab
-var lastOpen = 0;            // timestamp guard so the open() itself doesn't auto-advance
+var idx = -1;                // index of the calendar being worked on
+var phase = "idle";          // idle | awaitReturn | awaitOpen | done
+var lastOpen = 0;
 
 function firstName(n){ return (n||"").trim().split(/\s+/)[0] || n; }
 
-function selectStudent(s){
-  if(!s) return;
-  current = s; step = -1; awaiting = false;
-  resBox().classList.remove("show");
-  el("search-card").classList.add("hidden");
+function showStudent(s){
+  current = s; idx = -1; phase = "idle";
+  el("login-card").classList.add("hidden");
 
-  el("greet").innerHTML = "Hi " + esc(firstName(s.name)) + " &mdash; here "+
-    (s.sections.length===1?"is your 1 course":"are your "+s.sections.length+" courses")+
-    " for Term IV:" + "<small>Roll "+esc(s.roll)+"</small>";
+  el("greet").innerHTML = "Hi " + escapeHtml(firstName(s.name)) + " &mdash; here "+
+    (s.sections.length===1 ? "is your 1 course" : "are your "+s.sections.length+" courses")+
+    " for Term IV:" + "<small>Roll "+escapeHtml(s.roll)+"</small>";
 
   el("courses").innerHTML = s.sections.map(function(k,i){
     return '<li id="c'+i+'"><span class="tick" id="t'+i+'"></span>'+
            '<span class="dash">&ndash;</span>'+
-           '<span class="nm">'+esc(CAL[k] ? CAL[k].name : k)+'</span></li>';
+           '<span class="nm">'+escapeHtml(CAL[k] ? CAL[k].name : k)+'</span></li>';
   }).join("");
 
   el("preflow").classList.remove("hidden");
@@ -300,75 +318,90 @@ function selectStudent(s){
   el("student-card").classList.remove("hidden");
   window.scrollTo(0,0);
 }
+function escapeHtml(s){ return String(s).replace(/[&<>"]/g,function(c){
+  return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
 
-el("changeStudent").addEventListener("click", function(){
-  current=null; step=-1; awaiting=false;
+el("logout").addEventListener("click", function(){
+  current=null; idx=-1; phase="idle";
   el("student-card").classList.add("hidden");
-  el("search-card").classList.remove("hidden");
-  qIn().value=""; resBox().innerHTML=""; qIn().focus();
+  el("login-card").classList.remove("hidden");
+  el("pin").value=""; el("roll").value=""; setErr(""); el("roll").focus();
 });
 
-/* ---------- guided sequential add ---------- */
-function openStep(i){
-  var k = current.sections[i];
-  var cal = CAL[k];
-  if(!cal || !cal.calId){           // safety: missing id -> skip forward
-    markDone(i); advanceAfter(i); return null;
-  }
-  lastOpen = Date.now();
-  awaiting = true;
-  var w = window.open(subscribeUrl(cal.calId), "_blank");
-  return w;
-}
-
-function renderProgress(){
-  var n = current.sections.length;
-  var k = current.sections[step];
-  var nm = CAL[k] ? CAL[k].name : k;
-  el("progressMsg").innerHTML = "Adding <b>"+(step+1)+" of "+n+"</b> &mdash; "+
-    esc(nm)+".<br>Tap <b>Add</b> in the Google tab, then come back here.";
-  el("nextBtn").textContent = (step+1 < n)
-    ? "I added it — open next →"
-    : "I added it — finish";
-  document.querySelectorAll("#courses li").forEach(function(li){ li.classList.remove("cur"); });
-  var cur = el("c"+step); if(cur) cur.classList.add("cur");
-}
-
+/* ---- guided sequential add ---- */
 function markDone(i){
   var li = el("c"+i), t = el("t"+i);
   if(li){ li.classList.add("done"); li.classList.remove("cur"); }
   if(t){ t.textContent="✓"; t.classList.add("on"); }
 }
+function highlightCurrent(){
+  document.querySelectorAll("#courses li").forEach(function(li){ li.classList.remove("cur"); });
+  var cur = el("c"+idx); if(cur) cur.classList.add("cur");
+}
 
-function startFlow(){
-  step = 0;
+/* opens current calendar. ONLY ever called from a button tap (gesture). */
+function openCurrent(){
+  var n = current.sections.length;
+  while(idx < n){
+    var k = current.sections[idx], cal = CAL[k];
+    if(cal && cal.calId){
+      lastOpen = Date.now();
+      phase = "awaitReturn";
+      window.open(subscribeUrl(cal.calId), "_blank");
+      render();
+      return;
+    }
+    markDone(idx);                       // missing id: skip
+    if(idx >= n-1){ finish(); return; }
+    idx++;
+  }
+}
+
+function render(){
+  var n = current.sections.length;
+  var k = current.sections[idx];
+  var nm = CAL[k] ? CAL[k].name : k;
+  highlightCurrent();
+  if(phase === "awaitReturn"){
+    el("progressMsg").innerHTML =
+      "Opened <b>"+(idx+1)+" of "+n+"</b> &mdash; "+escapeHtml(nm)+".<br>"+
+      "Click <b>Add</b> in the Google tab, then come back to this tab.";
+    el("nextBtn").innerHTML = (idx+1 < n)
+      ? "I&rsquo;ve added it &mdash; open next &rarr;"
+      : "I&rsquo;ve added it &mdash; done";
+  } else if(phase === "awaitOpen"){
+    el("progressMsg").innerHTML =
+      "<b>"+idx+" of "+n+" added.</b><br>Next up: "+escapeHtml(nm)+
+      " ("+(idx+1)+" of "+n+").";
+    el("nextBtn").innerHTML = "Open "+escapeHtml(nm)+" &rarr;";
+  }
+}
+
+function startFlow(){                       // from "Add all" tap (gesture)
+  idx = 0;
   el("addAll").disabled = true;
   el("preflow").classList.add("hidden");
   el("flow").classList.remove("hidden");
   el("doneBox").classList.add("hidden");
-  renderProgress();
-  openStep(0);
+  openCurrent();
 }
 
-function advance(){
-  // called when the user returns from a Google tab (focus) or taps the button
-  if(step < 0) return;
-  markDone(step);
+/* back on this tab: tick off what they just added, advance the counter.
+   Does NOT open the next tab (no user gesture -> blocked on mobile). */
+function onReturn(){
+  if(phase !== "awaitReturn") return;
+  if(Date.now() - lastOpen < 700) return;          // ignore open()'s own focus
+  if(document.visibilityState === "hidden") return;
+  markDone(idx);
   var n = current.sections.length;
-  if(step + 1 >= n){ finish(); return; }
-  step += 1;
-  renderProgress();
-  var w = openStep(step);
-  if(!w){
-    // popup blocked on auto-advance: the button below is a reliable manual fallback
-    el("progressMsg").innerHTML += "<br><br>Your browser blocked the pop-up. "+
-      "Use the button below to open the next calendar.";
-  }
+  if(idx >= n-1){ finish(); return; }
+  idx++;
+  phase = "awaitOpen";
+  render();
 }
-function advanceAfter(i){ step=i; advance(); }
 
 function finish(){
-  awaiting = false;
+  phase = "done";
   var n = current.sections.length;
   el("flow").classList.add("hidden");
   el("doneBox").classList.remove("hidden");
@@ -380,35 +413,35 @@ function finish(){
 }
 
 el("addAll").addEventListener("click", startFlow);
+
+/* the flow button is always a real tap -> window.open() is allowed here */
 el("nextBtn").addEventListener("click", function(){
-  if(step < 0) return;
-  // explicit user action: open() here is always allowed
-  if(awaiting){ advance(); }
+  if(phase === "awaitOpen"){
+    openCurrent();
+  } else if(phase === "awaitReturn"){
+    markDone(idx);
+    var n = current.sections.length;
+    if(idx >= n-1){ finish(); return; }
+    idx++;
+    openCurrent();
+  }
 });
 
-/* auto-advance when the student returns to this tab */
-function onReturn(){
-  if(!current || step < 0 || !awaiting) return;
-  if(Date.now() - lastOpen < 1200) return;   // ignore the blur/focus from open() itself
-  if(document.visibilityState === "hidden") return;
-  advance();
-}
 window.addEventListener("focus", onReturn);
 document.addEventListener("visibilitychange", function(){
   if(document.visibilityState === "visible") onReturn();
 });
 
-/* ---------- browse all 38 ---------- */
+/* ---- browse all 38 (calendar names only - no personal data) ---- */
 function buildBrowseList(){
   var keys = Object.keys(CAL).sort(function(a,b){
     return CAL[a].name.localeCompare(CAL[b].name); });
-  var html = keys.map(function(k){
-    return '<div class="browse-row" data-name="'+esc(CAL[k].name.toLowerCase())+'">'+
-             '<span class="bn">'+esc(CAL[k].name)+'</span>'+
+  el("browseList").innerHTML = keys.map(function(k){
+    return '<div class="browse-row" data-name="'+escapeHtml(CAL[k].name.toLowerCase())+'">'+
+             '<span class="bn">'+escapeHtml(CAL[k].name)+'</span>'+
              '<button class="btn sec sm" data-k="'+k+'">Add</button>'+
            '</div>';
   }).join("");
-  el("browseList").innerHTML = html;
   el("browseList").addEventListener("click", function(e){
     var b = e.target.closest("button[data-k]");
     if(!b) return;
